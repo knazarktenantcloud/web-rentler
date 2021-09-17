@@ -11,7 +11,7 @@ import { TutorialState } from '../../state/tutorial.state';
 	styleUrls: ['./read.component.scss'],
 })
 export class ReadComponent implements OnInit {
-	@Select(TutorialState.getTutorials) tutorials$: Observable<Tutorial> | undefined;
+	@Select(TutorialState.getTutorials) tutorials$: Observable<Tutorial>;
 
 	constructor(private store: Store) {
 		//this.tutorials$ = this.store.select(state => state.tutorials.tutorials)
