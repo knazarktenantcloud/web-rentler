@@ -1,7 +1,27 @@
 <div class="left">
-	<input type="text" placeholder="name" #name />
-	<input type="text" placeholder="url" #url />
+	<form #f="ngForm" (ngSubmit)="addTutorial(f)" novalidate>
+		<mbsc-input
+			input-style="outline"
+			label-style="stacked"
+			placeholder="name"
+			[(ngModel)]="user.name"
+			name="name"
+			#name="ngModel"
+		>
+			Name
+		</mbsc-input>
+		<mbsc-input
+			input-style="outline"
+			label-style="stacked"
+			placeholder="url"
+			[(ngModel)]="user.url"
+			name="url"
+			#url="ngModel"
+		>
+			Url
+		</mbsc-input>
 
-	<button (click)="addTutorial(name.value, url.value)">Add a Tutorial</button>
+		<button type="submit">Add a Tutorial</button>
+	</form>
 </div>
 <p>create works!</p>

@@ -1,12 +1,14 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
-import { HTTP_INTERCEPTORS, HttpClient, HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { NgxsFormPluginModule } from '@ngxs/form-plugin';
 import { LoaderService, ProgressBarService } from './services';
 import { ErrorInterceptor, LoaderInterceptor, ProgressInterceptor, TimingInterceptor } from './interceptors';
+import { NgxsModule } from '@ngxs/store';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
-	imports: [BrowserModule],
-	exports: [BrowserModule],
+	imports: [BrowserModule, NgxsModule.forRoot([]), NgxsFormPluginModule.forRoot()],
+	exports: [],
 	providers: [
 		LoaderService,
 		{ provide: HTTP_INTERCEPTORS, useClass: ProgressInterceptor, multi: true, deps: [ProgressBarService] },

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngxs/store';
 import { AddTutorial } from '../../actions/tutorial.actions';
+import { NgControl, NgForm } from '@angular/forms';
 
 @Component({
 	selector: 'app-create',
@@ -8,10 +9,25 @@ import { AddTutorial } from '../../actions/tutorial.actions';
 	styleUrls: ['./create.component.scss'],
 })
 export class CreateComponent implements OnInit {
+	user = {
+		name: '',
+		url: '',
+	};
+
+	errorMessages = {
+		name: {
+			required: 'Username required',
+		},
+		url: {
+			required: 'Password required',
+			minlength: 'Invalid, should be at least 6 chars long',
+		},
+	};
+
 	constructor(private store: Store) {}
 
-	addTutorial(name: string, url: string): void {
-		this.store.dispatch(new AddTutorial({ name: name, url: url }));
+	addTutorial(f: NgForm): void {
+		this.store.dispatch(new AddTutorial(f.value));
 	}
 
 	ngOnInit(): void {}
