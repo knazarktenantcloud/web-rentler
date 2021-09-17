@@ -9,7 +9,7 @@ import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
 
 import { CreateComponent } from './components/create/create.component';
 import { ReadComponent } from './components/read/read.component';
-import { PresentPipe } from '../shared/pipes/present.pipe';
+import { PresentPipe } from '../../shared/pipes/present.pipe';
 
 @NgModule({
 	declarations: [CreateComponent, ReadComponent, PresentPipe],

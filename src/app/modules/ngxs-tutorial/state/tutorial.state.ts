@@ -1,6 +1,6 @@
 import { State, Action, StateContext, Selector } from '@ngxs/store';
-import { Tutorial } from './../models/tutorial.model';
-import { AddTutorial, RemoveTutorial } from './../actions/tutorial.actions';
+import { Tutorial } from '../models/tutorial.model';
+import { AddTutorial, RemoveTutorial } from '../actions/tutorial.actions';
 import { Injectable } from '@angular/core';
 
 export interface TutorialStateModel {

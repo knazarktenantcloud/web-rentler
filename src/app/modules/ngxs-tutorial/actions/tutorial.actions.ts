@@ -1,4 +1,4 @@
-import { Tutorial } from './../models/tutorial.model';
+import { Tutorial } from '../models/tutorial.model';
 
 export class AddTutorial {
 	static readonly type = '[TUTORIAL] Add';
