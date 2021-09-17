@@ -1,0 +1,8 @@
+<div class="right" *ngIf="tutorials$">
+	<h3>Tutorials</h3>
+	<ul>
+		<li (click)="delTutorial(tutorial.name)" *ngFor="let tutorial of tutorials$ | async | present">
+			{{ tutorial.name }}
+		</li>
+	</ul>
+</div>
