@@ -36,11 +36,11 @@ export class ApiService {
 		return this.http.get<T>(`${environment.api_url}${path}`, options).pipe(catchError(this.formatErrors));
 	}
 
-	put<T>(path: string, body: any | null): Observable<T> {
+	put<T>(path: string, id: number, body: any | null): Observable<T> {
 		const prepData = ParamsTrimmerHelper.trimParams(body);
 
 		return this.http
-			.put<T>(`${environment.api_url}${path}`, prepData, this.defaultOptions)
+			.put<T>(`${environment.api_url}${path}/${id}`, prepData, this.defaultOptions)
 			.pipe(catchError(this.formatErrors));
 	}
 

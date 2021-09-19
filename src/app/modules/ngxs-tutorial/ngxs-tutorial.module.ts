@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 import { TutorialState } from './modules/tutorial/state/tutorial.state';
 
@@ -13,8 +12,8 @@ import { PresentPipe } from '@app/shared/pipes/present.pipe';
 import { SharedModule } from '@app/shared/shared.module';
 import { TodoListComponent } from '@app/modules/ngxs-tutorial/modules/todo/components/todo-list/todo-list.component';
 import { TodoFormComponent } from '@app/modules/ngxs-tutorial/modules/todo/components/todo-form/todo-form.component';
-import { TodoService } from '@app/modules/ngxs-tutorial/modules/todo/services/todo.service';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
+import { TodoServiceProvider } from '@app/modules/ngxs-tutorial/modules/todo/providers/todo.service.provider';
 
 @NgModule({
 	declarations: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent, PresentPipe],
@@ -24,7 +23,7 @@ import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.st
 		NgxsReduxDevtoolsPluginModule.forRoot(),
 		NgxsLoggerPluginModule.forRoot(),
 	],
-	providers: [TodoService],
+	providers: [TodoServiceProvider],
 	exports: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent],
 })
 export class NgxsTutorialModule {}

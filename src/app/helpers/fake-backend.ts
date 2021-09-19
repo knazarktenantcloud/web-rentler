@@ -50,6 +50,29 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 							}
 						}
 
+						if (request.url.endsWith('/todos') && request.method === 'GET') {
+							// check for fake auth token in header and return users if valid, this security is implemented server side in a real application
+							return of(
+								new HttpResponse({
+									status: 200,
+									body: [
+										{
+											userId: 1,
+											id: 1,
+											title: 'delectus aut autem',
+											completed: false,
+										},
+										{
+											userId: 1,
+											id: 2,
+											title: 'quis ut nam facilis et officia qui',
+											completed: false,
+										},
+									],
+								})
+							);
+						}
+
 						// get users
 						if (request.url.endsWith('/users') && request.method === 'GET') {
 							// check for fake auth token in header and return users if valid, this security is implemented server side in a real application
