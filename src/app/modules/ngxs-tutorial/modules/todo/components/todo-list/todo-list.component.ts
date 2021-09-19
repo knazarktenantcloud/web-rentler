@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
 import { Todo } from '@app/modules/ngxs-tutorial/modules/todo/models/todo.model';
 import { Observable } from 'rxjs';
-import { DeleteTodo, SetSelectedTodo } from '@app/modules/ngxs-tutorial/modules/todo/actions/todo.actions';
+import { DeleteTodo, GetTodos, SetSelectedTodo } from '@app/modules/ngxs-tutorial/modules/todo/actions/todo.actions';
 import { Select } from '@ngxs/store';
 import { Store } from '@ngxs/store';
 
@@ -16,7 +16,9 @@ export class TodoListComponent implements OnInit {
 
 	constructor(private store: Store) {}
 
-	ngOnInit(): void {}
+	ngOnInit(): void {
+		this.store.dispatch(new GetTodos());
+	}
 
 	deleteTodo(id: number) {
 		this.store.dispatch(new DeleteTodo(id));
