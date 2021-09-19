@@ -1,5 +1,5 @@
 import { State, Action, StateContext, Selector } from '@ngxs/store';
-import { tap } from 'rxjs/operators';
+import { catchError, tap } from 'rxjs/operators';
 import { Todo } from '@app/modules/ngxs-tutorial/modules/todo/models/todo.model';
 import {
 	GetTodos,
@@ -15,6 +15,12 @@ import { TodoService } from '@app/modules/ngxs-tutorial/modules/todo/providers/t
 export interface TodoStateModel {
 	todos: Todo[];
 	selectedTodo: Todo | null;
+	form: {
+		dirty: boolean;
+		status: string;
+		message: string;
+		errors?: null;
+	};
 }
 
 @State<TodoStateModel>({
@@ -22,6 +28,12 @@ export interface TodoStateModel {
 	defaults: {
 		todos: [],
 		selectedTodo: null,
+		form: {
+			dirty: false,
+			status: '',
+			message: '',
+			errors: null,
+		},
 	},
 })
 @Injectable()
@@ -38,6 +50,11 @@ export class TodoState {
 		return state.selectedTodo;
 	}
 
+	@Selector()
+	static formErrors(state: TodoStateModel) {
+		return state.form.errors;
+	}
+
 	@Action(GetTodos)
 	getTodos({ getState, setState }: StateContext<TodoStateModel>) {
 		return this.todoService.get<Todo[]>().pipe(
@@ -52,13 +69,26 @@ export class TodoState {
 	}
 
 	@Action(AddTodo)
-	addTodo({ getState, patchState }: StateContext<TodoStateModel>, { payload }: AddTodo) {
+	addTodo({ getState, patchState, setState }: StateContext<TodoStateModel>, { payload }: AddTodo) {
 		return this.todoService.post(payload).pipe(
 			tap((result: Todo) => {
 				const state = getState();
 				patchState({
 					todos: [...state.todos, result],
 				});
+			}),
+			catchError((err) => {
+				const state = getState();
+
+				// in case of Backend required error
+				setState({
+					...state,
+					form: {
+						...state.form,
+						errors: err,
+					},
+				});
+				throw err;
 			})
 		);
 	}

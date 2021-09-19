@@ -14,6 +14,7 @@ import { TodoListComponent } from '@app/modules/ngxs-tutorial/modules/todo/compo
 import { TodoFormComponent } from '@app/modules/ngxs-tutorial/modules/todo/components/todo-form/todo-form.component';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
 import { TodoServiceProvider } from '@app/modules/ngxs-tutorial/modules/todo/providers/todo.service.provider';
+import { NgxsFormPluginModule } from '@ngxs/form-plugin';
 
 @NgModule({
 	declarations: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent, PresentPipe],
@@ -21,6 +22,7 @@ import { TodoServiceProvider } from '@app/modules/ngxs-tutorial/modules/todo/pro
 		SharedModule,
 		NgxsModule.forRoot([TutorialState, TodoState]),
 		NgxsReduxDevtoolsPluginModule.forRoot(),
+		NgxsFormPluginModule.forRoot(),
 		NgxsLoggerPluginModule.forRoot(),
 	],
 	providers: [TodoServiceProvider],

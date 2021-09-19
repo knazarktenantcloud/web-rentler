@@ -73,6 +73,16 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 							);
 						}
 
+						// register user
+						if (request.url.endsWith('/todos') && request.method === 'POST') {
+							return throwError({
+								error: {
+									errors: { userId: 'Must be integer' },
+									message: 'Ooops',
+								},
+							});
+						}
+
 						// get users
 						if (request.url.endsWith('/users') && request.method === 'GET') {
 							// check for fake auth token in header and return users if valid, this security is implemented server side in a real application
