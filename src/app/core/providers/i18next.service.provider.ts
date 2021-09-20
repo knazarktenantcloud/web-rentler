@@ -8,7 +8,7 @@ import {
 import { APP_INITIALIZER, LOCALE_ID } from '@angular/core';
 
 import LanguageDetector from 'i18next-browser-languagedetector';
-// import Backend from 'i18next-http-backend';
+import Backend from 'i18next-http-backend';
 
 const i18nextOptions = {
 	whitelist: ['en'],
@@ -20,16 +20,16 @@ const i18nextOptions = {
 		format: I18NextModule.interpolationFormat(defaultInterpolationFormat),
 	},
 	// backend plugin options
-	// backend: {
-	// 	// for all available options read the backend's repository readme file
-	// 	loadPath: '/locales/{{lng}}/{{ns}}.json',
-	// },
+	backend: {
+		// for all available options read the backend's repository readme file
+		loadPath: '/assets/lang/{{lng}}/{{ns}}.json',
+	},
 };
 
 export function appInit(i18next: ITranslationService) {
 	return () => {
 		const promise: Promise<I18NextLoadResult> = i18next
-			// .use(Backend)
+			.use(Backend)
 			.use<any>(LanguageDetector)
 			.init(i18nextOptions);
 		return promise;
