@@ -1,4 +1,4 @@
-import { State, Action, StateContext, Selector } from '@ngxs/store';
+import { State, Action, StateContext, Selector, Select, Store } from '@ngxs/store';
 import { catchError, tap } from 'rxjs/operators';
 import { Todo } from '@app/modules/ngxs-tutorial/modules/todo/models/todo.model';
 import {
@@ -11,16 +11,14 @@ import {
 import { Inject, Injectable } from '@angular/core';
 import { HttpService } from '@app/core/services/http.service';
 import { TodoService } from '@app/modules/ngxs-tutorial/modules/todo/providers/todo.service.provider';
+import { FormState } from '@app/modules/ngxs-forms/models/forms-state.interface';
+import { initFormState } from '@app/modules/ngxs-forms/models/forms-state-init.const';
+import { FormsState } from '@app/modules/ngxs-forms/store/forms.state';
 
 export interface TodoStateModel {
 	todos: Todo[];
 	selectedTodo: Todo | null;
-	form: {
-		dirty: boolean;
-		status: string;
-		message: string;
-		errors?: null;
-	};
+	form: FormState<Todo>;
 }
 
 @State<TodoStateModel>({
@@ -28,17 +26,12 @@ export interface TodoStateModel {
 	defaults: {
 		todos: [],
 		selectedTodo: null,
-		form: {
-			dirty: false,
-			status: '',
-			message: '',
-			errors: null,
-		},
+		form: initFormState,
 	},
 })
 @Injectable()
 export class TodoState {
-	constructor(@Inject(TodoService) private todoService: HttpService) {}
+	constructor(private store: Store, @Inject(TodoService) private todoService: HttpService) {}
 
 	@Selector()
 	static getTodoList(state: TodoStateModel) {
@@ -79,6 +72,8 @@ export class TodoState {
 			}),
 			catchError((err) => {
 				const state = getState();
+
+				// const form = this.store.selectSnapshot(FormsState.todoForm);
 
 				// in case of Backend required error
 				setState({

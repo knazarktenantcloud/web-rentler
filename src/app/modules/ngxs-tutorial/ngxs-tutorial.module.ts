@@ -5,6 +5,8 @@ import { TutorialState } from './modules/tutorial/state/tutorial.state';
 import { NgxsModule } from '@ngxs/store';
 import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
+import { NgxsFormPluginModule } from '@ngxs/form-plugin';
+import { NgxsStoragePluginModule } from '@ngxs/storage-plugin';
 
 import { CreateComponent } from './modules/tutorial/components/create/create.component';
 import { ReadComponent } from './modules/tutorial/components/read/read.component';
@@ -14,16 +16,19 @@ import { TodoListComponent } from '@app/modules/ngxs-tutorial/modules/todo/compo
 import { TodoFormComponent } from '@app/modules/ngxs-tutorial/modules/todo/components/todo-form/todo-form.component';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
 import { TodoServiceProvider } from '@app/modules/ngxs-tutorial/modules/todo/providers/todo.service.provider';
-import { NgxsFormPluginModule } from '@ngxs/form-plugin';
+import { environment } from '@env/environment';
 
 @NgModule({
 	declarations: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent, PresentPipe],
 	imports: [
 		SharedModule,
-		NgxsModule.forRoot([TutorialState, TodoState]),
-		NgxsReduxDevtoolsPluginModule.forRoot(),
+		NgxsModule.forRoot([TutorialState, TodoState], {
+			developmentMode: !environment.production,
+		}),
+		NgxsReduxDevtoolsPluginModule.forRoot({ disabled: environment.production }),
 		NgxsFormPluginModule.forRoot(),
 		NgxsLoggerPluginModule.forRoot(),
+		NgxsStoragePluginModule.forRoot({ key: ['forms'] }),
 	],
 	providers: [TodoServiceProvider],
 	exports: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent],

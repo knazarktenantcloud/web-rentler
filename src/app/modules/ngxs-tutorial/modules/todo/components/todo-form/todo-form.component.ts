@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Select, Store } from '@ngxs/store';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
 import { FormBuilder, FormGroup, NgControl, Validators } from '@angular/forms';
@@ -8,18 +8,21 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { AddTodo, SetSelectedTodo, UpdateTodo } from '@app/modules/ngxs-tutorial/modules/todo/actions/todo.actions';
 import { has } from 'lodash-es';
 import { SetFormDisabled, UpdateFormDirty } from '@ngxs/form-plugin';
+import { FormsState } from '@app/modules/ngxs-forms/store/forms.state';
 
 @Component({
 	selector: 'app-todo-form',
 	templateUrl: './todo-form.component.html',
 	styleUrls: ['./todo-form.component.scss'],
 })
-export class TodoFormComponent implements OnInit {
+export class TodoFormComponent implements OnInit, OnDestroy {
 	@Select(TodoState.getSelectedTodo) selectedTodo: Observable<Todo>;
 	@Select(TodoState.formErrors) errors$: Observable<any>;
 	todoForm: FormGroup;
 	editTodo = false;
 	errors: any;
+
+	private subscription = new Subscription();
 
 	errorMessages = {
 		userId: {
@@ -36,10 +39,33 @@ export class TodoFormComponent implements OnInit {
 			userId: ['', Validators.required],
 			title: ['', Validators.required],
 		});
+	}
 
-		this.errors$.subscribe((err) => {
-			this.errors = err?.errors;
-		});
+	ngOnInit() {
+		this.subscription.add(
+			this.selectedTodo.subscribe((todo) => {
+				if (todo) {
+					this.todoForm.patchValue({
+						id: todo.id,
+						userId: todo.userId,
+						title: todo.title,
+					});
+					this.editTodo = true;
+				} else {
+					this.editTodo = false;
+				}
+			})
+		);
+
+		this.subscription.add(
+			this.errors$.subscribe((err) => {
+				this.errors = err?.errors;
+			})
+		);
+	}
+
+	ngOnDestroy() {
+		this.subscription.unsubscribe();
 	}
 
 	getError(field: string): string {
@@ -70,21 +96,6 @@ export class TodoFormComponent implements OnInit {
 		return this.todoForm.controls;
 	}
 
-	ngOnInit() {
-		this.selectedTodo.subscribe((todo) => {
-			if (todo) {
-				this.todoForm.patchValue({
-					id: todo.id,
-					userId: todo.userId,
-					title: todo.title,
-				});
-				this.editTodo = true;
-			} else {
-				this.editTodo = false;
-			}
-		});
-	}
-
 	onSubmit() {
 		if (this.editTodo) {
 			this.store.dispatch(new UpdateTodo(this.todoForm.value, this.todoForm.value.id)).subscribe(() => {
@@ -99,6 +110,7 @@ export class TodoFormComponent implements OnInit {
 
 	clearForm() {
 		this.todoForm.reset();
+		// this.store.dispatch(new StateReset(FormsState));
 		this.store.dispatch(new SetSelectedTodo(null));
 	}
 }

@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { MbscModule } from '@mobiscroll/angular';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { NgxsFormsModule } from '@app/modules/ngxs-forms/ngxs-forms.module';
 
 @NgModule({
 	imports: [
@@ -15,9 +16,18 @@ import { HttpClientModule } from '@angular/common/http';
 		ReactiveFormsModule,
 		MbscModule,
 		RouterModule,
+		NgxsFormsModule,
 	],
 	declarations: [],
 	providers: [],
-	exports: [BrowserModule, HttpClientModule, CommonModule, FormsModule, ReactiveFormsModule, MbscModule],
+	exports: [
+		BrowserModule,
+		HttpClientModule,
+		CommonModule,
+		FormsModule,
+		ReactiveFormsModule,
+		MbscModule,
+		NgxsFormsModule,
+	],
 })
 export class SharedModule {}
