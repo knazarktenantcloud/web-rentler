@@ -73,13 +73,15 @@ export class TodoState {
 			catchError((err) => {
 				const state = getState();
 
-				// const form = this.store.selectSnapshot(FormsState.todoForm);
+				const form = this.store.selectSnapshot(FormsState.todoForm);
+
+				console.log(form, 'HERE');
 
 				// in case of Backend required error
 				setState({
 					...state,
 					form: {
-						...state.form,
+						...form,
 						errors: err,
 					},
 				});

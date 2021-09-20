@@ -17,10 +17,9 @@ import { FormsState } from '@app/modules/ngxs-forms/store/forms.state';
 })
 export class TodoFormComponent implements OnInit, OnDestroy {
 	@Select(TodoState.getSelectedTodo) selectedTodo: Observable<Todo>;
-	@Select(TodoState.formErrors) errors$: Observable<any>;
+	// @Select(TodoState.formErrors) errors$: Observable<any>;
 	todoForm: FormGroup;
 	editTodo = false;
-	errors: any;
 
 	private subscription = new Subscription();
 
@@ -57,11 +56,11 @@ export class TodoFormComponent implements OnInit, OnDestroy {
 			})
 		);
 
-		this.subscription.add(
-			this.errors$.subscribe((err) => {
-				this.errors = err?.errors;
-			})
-		);
+		// this.subscription.add(
+		// 	this.errors$.subscribe((err) => {
+		// 		this.errors = err?.errors;
+		// 	})
+		// );
 	}
 
 	ngOnDestroy() {

@@ -1,6 +1,8 @@
 <div class="card mt-3">
 	<div class="card-body">
-		<form [formGroup]="todoForm" ngxsForm="forms.todoForm" (ngSubmit)="onSubmit()">
+		{{ 'error.oops' | i18next }}
+		<!-- ngxsForm="forms.todoForm"-->
+		<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
 			<div class="form-group">
 				<mbsc-input
 					input-style="outline"
