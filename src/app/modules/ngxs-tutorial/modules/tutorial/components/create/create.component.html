@@ -7,9 +7,12 @@
 			[(ngModel)]="user.name"
 			name="name"
 			#name="ngModel"
+			[error]="!!(name.invalid && (name.dirty || name.touched))"
+			[errorMessage]="getError(name)"
 		>
 			Name
 		</mbsc-input>
+
 		<mbsc-input
 			input-style="outline"
 			label-style="stacked"

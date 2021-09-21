@@ -1,0 +1,13 @@
+<mbsc-input
+	input-style="outline"
+	label-style="stacked"
+	#inputElement
+	[name]="name"
+	[type]="type"
+	[(ngModel)]="value"
+	(change)="onChange($event)"
+	(keyup)="onKeyup($event)"
+	(blur)="onBlur($event)"
+>
+	{{ label }}
+</mbsc-input>
