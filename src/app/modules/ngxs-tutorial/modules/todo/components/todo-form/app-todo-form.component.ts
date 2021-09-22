@@ -6,6 +6,7 @@ import { Observable, Subscription } from 'rxjs';
 import { Todo } from '@app/modules/ngxs-tutorial/modules/todo/models/todo.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AddTodo, SetSelectedTodo, UpdateTodo } from '@app/modules/ngxs-tutorial/modules/todo/actions/todo.actions';
+import { ErrorHandler } from '@app/helpers/error-handler';
 
 @Component({
 	selector: 'app-todo-form',
@@ -19,12 +20,25 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 
 	private subscription = new Subscription();
 
-	constructor(private fb: FormBuilder, private store: Store, private route: ActivatedRoute, private router: Router) {
+	constructor(
+		private fb: FormBuilder,
+		private store: Store,
+		private route: ActivatedRoute,
+		private router: Router,
+		public errorHandler: ErrorHandler
+	) {
 		this.todoForm = this.fb.group({
 			id: [''],
 			userId: ['', Validators.required],
-			title: ['', Validators.required],
+			title: [''],
 		});
+
+		const errorObject = {
+			userId: '',
+			title: '',
+		};
+
+		this.errorHandler.handleErrors(this.todoForm, errorObject);
 	}
 
 	ngOnInit() {
@@ -43,13 +57,13 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 			})
 		);
 
-		// this.subscription.add(
-		// 	this.errors$.subscribe((err) => {
-		// 		if (err?.errors) {
-		// 			this.setErrors(err.errors);
-		// 		}
-		// 	})
-		// );
+		this.subscription.add(
+			this.errors$.subscribe((err) => {
+				if (err?.errors) {
+					this.errorHandler.organizeServerErrors(err.errors, this.todoForm);
+				}
+			})
+		);
 	}
 
 	ngOnDestroy() {

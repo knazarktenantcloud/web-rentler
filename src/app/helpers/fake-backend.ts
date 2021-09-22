@@ -77,7 +77,9 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 						if (request.url.endsWith('/todos') && request.method === 'POST') {
 							return throwError({
 								error: {
-									errors: { userId: 'Must be integer' },
+									errors: {
+										userId: ['Must be integer'],
+									},
 									message: 'Ooops',
 								},
 							});

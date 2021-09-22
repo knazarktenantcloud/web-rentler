@@ -19,6 +19,12 @@ export class ErrorHandler {
 		return control.invalid && (control.dirty || control.touched);
 	}
 
+	public getError(field: string): string {
+		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+		// @ts-ignore
+		return this.errorObject[field];
+	}
+
 	/**
 	 * Takes server error obj and set errors to appropriate fields at form given.
 	 *
@@ -67,7 +73,7 @@ export class ErrorHandler {
 				this.setErrorsToNestedFields(field);
 			} else {
 				const errorMessages: any[] = this.serverError[field];
-				this.form.get(field)?.setErrors({ serverError: errorMessages[0].message });
+				this.form.get(field)?.setErrors({ serverError: errorMessages[0] });
 			}
 		});
 	}

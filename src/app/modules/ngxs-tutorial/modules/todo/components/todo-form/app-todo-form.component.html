@@ -2,13 +2,14 @@
 	<div class="card-body">
 		<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
 			<div class="form-group">
+				{{ todoForm.get('userId')?.errors | json }}
 				<mbsc-input
 					input-style="outline"
 					label-style="stacked"
 					type="number"
 					formControlName="userId"
 					[error]="f.userId.invalid && (f.userId.dirty || f.userId.touched)"
-					[errorMessage]="'Required'"
+					[errorMessage]="errorHandler.getError('userId')"
 				>
 					User id
 				</mbsc-input>
@@ -19,7 +20,7 @@
 					label-style="stacked"
 					formControlName="title"
 					[error]="f.title.invalid && (f.title.dirty || f.title.touched)"
-					[errorMessage]="'Required'"
+					[errorMessage]="errorHandler.getError('title')"
 				>
 					Title
 				</mbsc-input>
