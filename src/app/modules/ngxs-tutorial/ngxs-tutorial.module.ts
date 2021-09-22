@@ -22,7 +22,7 @@ import { environment } from '@env/environment';
 	declarations: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent, PresentPipe],
 	imports: [
 		SharedModule,
-		NgxsModule.forRoot([TutorialState, TodoState], {
+		NgxsModule.forRoot([TodoState], {
 			developmentMode: !environment.production,
 		}),
 		NgxsReduxDevtoolsPluginModule.forRoot({ disabled: environment.production }),

@@ -11,9 +11,8 @@ import {
 import { Inject, Injectable } from '@angular/core';
 import { HttpService } from '@app/core/services/http.service';
 import { TodoService } from '@app/modules/ngxs-tutorial/modules/todo/providers/todo.service.provider';
-import { FormState } from '@app/modules/ngxs-forms/models/forms-state.interface';
-import { initFormState } from '@app/modules/ngxs-forms/models/forms-state-init.const';
-import { FormsState } from '@app/modules/ngxs-forms/store/forms.state';
+import { FormState } from '@app/shared/interfaces/forms-state.interface';
+import { initFormState } from '@app/shared/interfaces/forms-state-init.const';
 
 export interface TodoStateModel {
 	todos: Todo[];
@@ -73,15 +72,11 @@ export class TodoState {
 			catchError((err) => {
 				const state = getState();
 
-				const form = this.store.selectSnapshot(FormsState.todoForm);
-
-				console.log(form, 'HERE');
-
 				// in case of Backend required error
 				setState({
 					...state,
 					form: {
-						...form,
+						...state.form,
 						errors: err,
 					},
 				});

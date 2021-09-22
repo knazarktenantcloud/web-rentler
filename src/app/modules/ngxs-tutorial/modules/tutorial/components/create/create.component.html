@@ -6,6 +6,7 @@
 			placeholder="name"
 			[(ngModel)]="user.name"
 			name="name"
+			required="true"
 			#name="ngModel"
 			[error]="!!(name.invalid && (name.dirty || name.touched))"
 			[errorMessage]="getError(name)"

@@ -5,10 +5,8 @@ import { RouterModule } from '@angular/router';
 import { MbscModule } from '@mobiscroll/angular';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
-import { NgxsFormsModule } from '@app/modules/ngxs-forms/ngxs-forms.module';
 import { I18NextModule } from 'angular-i18next';
 import { NativeElementInjectorDirective } from '@app/shared/directives/native-element-injector.directive';
-import { InputComponent } from '@app/shared/components/controls/input/input.component';
 
 @NgModule({
 	imports: [
@@ -20,9 +18,8 @@ import { InputComponent } from '@app/shared/components/controls/input/input.comp
 		MbscModule,
 		RouterModule,
 		I18NextModule,
-		NgxsFormsModule,
 	],
-	declarations: [NativeElementInjectorDirective, InputComponent],
+	declarations: [NativeElementInjectorDirective],
 	providers: [],
 	exports: [
 		BrowserModule,
@@ -31,10 +28,8 @@ import { InputComponent } from '@app/shared/components/controls/input/input.comp
 		FormsModule,
 		ReactiveFormsModule,
 		MbscModule,
-		NgxsFormsModule,
 		I18NextModule,
 		NativeElementInjectorDirective,
-		InputComponent,
 	],
 })
 export class SharedModule {}

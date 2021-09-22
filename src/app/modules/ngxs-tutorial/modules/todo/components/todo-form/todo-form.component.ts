@@ -1,14 +1,11 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Select, Store } from '@ngxs/store';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
-import { FormBuilder, FormGroup, NgControl, Validators } from '@angular/forms';
+import { FormGroup } from '@angular/forms';
 import { Observable, Subscription } from 'rxjs';
 import { Todo } from '@app/modules/ngxs-tutorial/modules/todo/models/todo.model';
-import { ActivatedRoute, Router } from '@angular/router';
 import { AddTodo, SetSelectedTodo, UpdateTodo } from '@app/modules/ngxs-tutorial/modules/todo/actions/todo.actions';
-import { has } from 'lodash-es';
-import { SetFormDisabled, UpdateFormDirty } from '@ngxs/form-plugin';
-import { FormsState } from '@app/modules/ngxs-forms/store/forms.state';
+import { ValidationManager } from '@app/helpers/validators/validation-manager';
 
 @Component({
 	selector: 'app-todo-form',
@@ -17,34 +14,36 @@ import { FormsState } from '@app/modules/ngxs-forms/store/forms.state';
 })
 export class TodoFormComponent implements OnInit, OnDestroy {
 	@Select(TodoState.getSelectedTodo) selectedTodo: Observable<Todo>;
-	// @Select(TodoState.formErrors) errors$: Observable<any>;
-	todoForm: FormGroup;
+	@Select(TodoState.formErrors) errors$: Observable<any>;
 	editTodo = false;
+	manager: ValidationManager;
 
 	private subscription = new Subscription();
 
-	errorMessages = {
-		userId: {
-			required: 'User id required',
-		},
-		title: {
-			required: 'Title required',
-		},
-	};
+	constructor(private store: Store) {}
 
-	constructor(private fb: FormBuilder, private store: Store, private route: ActivatedRoute, private router: Router) {
-		this.todoForm = this.fb.group({
-			id: [''],
-			userId: ['', Validators.required],
-			title: ['', Validators.required],
-		});
+	get form(): FormGroup {
+		return this.manager.getForm();
+	}
+
+	get value() {
+		return this.manager.getData();
 	}
 
 	ngOnInit() {
+		this.manager = new ValidationManager({
+			userId: 'required',
+			title: 'required',
+		});
+
+		this.form.valueChanges.subscribe(() => {
+			console.log(this.manager.getErrors(), 'getErrors');
+		});
+
 		this.subscription.add(
 			this.selectedTodo.subscribe((todo) => {
 				if (todo) {
-					this.todoForm.patchValue({
+					this.form.patchValue({
 						id: todo.id,
 						userId: todo.userId,
 						title: todo.title,
@@ -56,60 +55,38 @@ export class TodoFormComponent implements OnInit, OnDestroy {
 			})
 		);
 
-		// this.subscription.add(
-		// 	this.errors$.subscribe((err) => {
-		// 		this.errors = err?.errors;
-		// 	})
-		// );
+		this.subscription.add(
+			this.errors$.subscribe((err) => {
+				if (err?.errors) {
+					this.manager.setErrors(err?.errors);
+				}
+			})
+		);
 	}
 
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
 	}
 
-	getError(field: string): string {
-		const control = this.todoForm.get(field);
-		let message = '';
-
-		// if (has(this.errors, field)) {
-		// 	control?.setErrors(this.errors);
-		// 	message = this.errors[field];
-		//
-		// 	return message;
-		// }
-
-		if (control?.errors) {
-			for (const err in control.errors) {
-				if (control.errors[err]) {
-					// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-					// @ts-ignore
-					message = this.errorMessages[field][err];
-				}
-			}
+	onSubmit() {
+		// stop here if form is invalid
+		if (!this.manager.isValid()) {
+			return;
 		}
 
-		return message;
-	}
-
-	get f() {
-		return this.todoForm.controls;
-	}
-
-	onSubmit() {
 		if (this.editTodo) {
-			this.store.dispatch(new UpdateTodo(this.todoForm.value, this.todoForm.value.id)).subscribe(() => {
+			this.store.dispatch(new UpdateTodo(this.value, this.value.id)).subscribe(() => {
 				this.clearForm();
 			});
 		} else {
-			this.store.dispatch(new AddTodo(this.todoForm.value)).subscribe(() => {
+			this.store.dispatch(new AddTodo(this.value)).subscribe(() => {
 				this.clearForm();
 			});
 		}
 	}
 
 	clearForm() {
-		this.todoForm.reset();
-		// this.store.dispatch(new StateReset(FormsState));
+		this.form.reset();
 		this.store.dispatch(new SetSelectedTodo(null));
 	}
 }
