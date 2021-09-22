@@ -1,49 +1,37 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Select, Store } from '@ngxs/store';
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
-import { FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Observable, Subscription } from 'rxjs';
 import { Todo } from '@app/modules/ngxs-tutorial/modules/todo/models/todo.model';
+import { ActivatedRoute, Router } from '@angular/router';
 import { AddTodo, SetSelectedTodo, UpdateTodo } from '@app/modules/ngxs-tutorial/modules/todo/actions/todo.actions';
-import { ValidationManager } from '@app/helpers/validators/validation-manager';
 
 @Component({
-	selector: 'todo-form',
-	templateUrl: './todo-form.component.html',
-	styleUrls: ['./todo-form.component.scss'],
+	selector: 'app-todo-form',
+	templateUrl: './app-todo-form.component.html',
 })
-export class TodoFormComponent implements OnInit, OnDestroy {
+export class AppTodoFormComponent implements OnInit, OnDestroy {
 	@Select(TodoState.getSelectedTodo) selectedTodo: Observable<Todo>;
 	@Select(TodoState.formErrors) errors$: Observable<any>;
+	todoForm: FormGroup;
 	editTodo = false;
-	manager: ValidationManager;
 
 	private subscription = new Subscription();
 
-	constructor(private store: Store) {}
-
-	get form(): FormGroup {
-		return this.manager.getForm();
-	}
-
-	get value() {
-		return this.manager.getData();
+	constructor(private fb: FormBuilder, private store: Store, private route: ActivatedRoute, private router: Router) {
+		this.todoForm = this.fb.group({
+			id: [''],
+			userId: ['', Validators.required],
+			title: ['', Validators.required],
+		});
 	}
 
 	ngOnInit() {
-		this.manager = new ValidationManager({
-			userId: 'required',
-			title: 'required',
-		});
-
-		this.form.valueChanges.subscribe(() => {
-			console.log(this.manager.getErrors(), 'getErrors');
-		});
-
 		this.subscription.add(
 			this.selectedTodo.subscribe((todo) => {
 				if (todo) {
-					this.form.patchValue({
+					this.todoForm.patchValue({
 						id: todo.id,
 						userId: todo.userId,
 						title: todo.title,
@@ -55,38 +43,37 @@ export class TodoFormComponent implements OnInit, OnDestroy {
 			})
 		);
 
-		this.subscription.add(
-			this.errors$.subscribe((err) => {
-				if (err?.errors) {
-					this.manager.setErrors(err?.errors);
-				}
-			})
-		);
+		// this.subscription.add(
+		// 	this.errors$.subscribe((err) => {
+		// 		if (err?.errors) {
+		// 			this.setErrors(err.errors);
+		// 		}
+		// 	})
+		// );
 	}
 
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
 	}
 
-	onSubmit() {
-		// stop here if form is invalid
-		if (!this.manager.isValid()) {
-			return;
-		}
+	get f() {
+		return this.todoForm.controls;
+	}
 
+	onSubmit() {
 		if (this.editTodo) {
-			this.store.dispatch(new UpdateTodo(this.value, this.value.id)).subscribe(() => {
+			this.store.dispatch(new UpdateTodo(this.todoForm.value, this.todoForm.value.id)).subscribe(() => {
 				this.clearForm();
 			});
 		} else {
-			this.store.dispatch(new AddTodo(this.value)).subscribe(() => {
+			this.store.dispatch(new AddTodo(this.todoForm.value)).subscribe(() => {
 				this.clearForm();
 			});
 		}
 	}
 
 	clearForm() {
-		this.form.reset();
+		this.todoForm.reset();
 		this.store.dispatch(new SetSelectedTodo(null));
 	}
 }

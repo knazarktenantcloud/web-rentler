@@ -1,0 +1,35 @@
+<div class="card mt-3">
+	<div class="card-body">
+		<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
+			<div class="form-group">
+				<mbsc-input
+					input-style="outline"
+					label-style="stacked"
+					type="number"
+					formControlName="userId"
+					[error]="f.userId.invalid && (f.userId.dirty || f.userId.touched)"
+					[errorMessage]="'Required'"
+				>
+					User id
+				</mbsc-input>
+			</div>
+			<div class="form-group">
+				<mbsc-input
+					input-style="outline"
+					label-style="stacked"
+					formControlName="title"
+					[error]="f.title.invalid && (f.title.dirty || f.title.touched)"
+					[errorMessage]="'Required'"
+				>
+					Title
+				</mbsc-input>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-primary mr-1" [disabled]="todoForm.pristine || todoForm.invalid">
+					Submit
+				</button>
+				<button class="btn btn-primary" (click)="clearForm()">Clear</button>
+			</div>
+		</form>
+	</div>
+</div>

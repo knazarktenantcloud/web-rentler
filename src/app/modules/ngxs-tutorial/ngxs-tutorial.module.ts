@@ -17,9 +17,17 @@ import { TodoFormComponent } from '@app/modules/ngxs-tutorial/modules/todo/compo
 import { TodoState } from '@app/modules/ngxs-tutorial/modules/todo/state/todo.state';
 import { TodoServiceProvider } from '@app/modules/ngxs-tutorial/modules/todo/providers/todo.service.provider';
 import { environment } from '@env/environment';
+import { AppTodoFormComponent } from '@app/modules/ngxs-tutorial/modules/todo/components/todo-form/app-todo-form.component';
 
 @NgModule({
-	declarations: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent, PresentPipe],
+	declarations: [
+		CreateComponent,
+		ReadComponent,
+		TodoListComponent,
+		TodoFormComponent,
+		AppTodoFormComponent,
+		PresentPipe,
+	],
 	imports: [
 		SharedModule,
 		NgxsModule.forRoot([TodoState], {
@@ -31,6 +39,6 @@ import { environment } from '@env/environment';
 		NgxsStoragePluginModule.forRoot({ key: ['forms'] }),
 	],
 	providers: [TodoServiceProvider],
-	exports: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent],
+	exports: [CreateComponent, ReadComponent, TodoListComponent, TodoFormComponent, AppTodoFormComponent],
 })
 export class NgxsTutorialModule {}
