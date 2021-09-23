@@ -18,6 +18,8 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 	todoForm: FormGroup;
 	editTodo = false;
 
+	mask = '+{7}(000)000-00-00';
+
 	private subscription = new Subscription();
 
 	constructor(
@@ -31,6 +33,7 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 			id: [''],
 			userId: ['', Validators.required],
 			title: [''],
+			phone: [''],
 		});
 
 		this.errorHandler.handleErrors(this.todoForm);

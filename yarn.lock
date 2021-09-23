@@ -1833,6 +1833,14 @@ angular-i18next@^10.3.0:
   dependencies:
     tslib "^2.2.0"
 
+angular-imask@^6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/angular-imask/-/angular-imask-6.2.2.tgz#5b0244381695bd4dda81f975556b51089105cb68"
+  integrity sha512-L5WBrw3yHnyyyVWgsUWmbzK+hpmllnvFHq7rBvcg6snuAuyfMCfYU9a2ctoqTU9xXk2PocUDjF0wu3+Vfx0xOw==
+  dependencies:
+    imask "^6.2.2"
+    tslib "^2.0.0"
+
 ansi-colors@4.1.1, ansi-colors@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/ansi-colors/-/ansi-colors-4.1.1.tgz"
@@ -4332,6 +4340,11 @@ image-size@~0.5.0:
   version "0.5.5"
   resolved "https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz"
   integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
+
+imask@^6.2.2:
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/imask/-/imask-6.2.2.tgz#c72c0ce9a52f57539ecdc264eccc2407d20e13b5"
+  integrity sha512-oREITqngsjD0YxO62UpVQSxLNjIcb/mNO9hX2F8xQ282Kj3X9KXEAobipbUXz5R5NgtiL6nOPrWwo+AnLuz5AQ==
 
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"

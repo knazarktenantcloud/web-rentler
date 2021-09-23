@@ -7,6 +7,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { I18NextModule } from 'angular-i18next';
 import { NativeElementInjectorDirective } from '@app/shared/directives/native-element-injector.directive';
+import { IMaskModule } from 'angular-imask';
 
 @NgModule({
 	imports: [
@@ -18,6 +19,7 @@ import { NativeElementInjectorDirective } from '@app/shared/directives/native-el
 		MbscModule,
 		RouterModule,
 		I18NextModule,
+		IMaskModule,
 	],
 	declarations: [NativeElementInjectorDirective],
 	providers: [],
@@ -30,6 +32,7 @@ import { NativeElementInjectorDirective } from '@app/shared/directives/native-el
 		MbscModule,
 		I18NextModule,
 		NativeElementInjectorDirective,
+		IMaskModule,
 	],
 })
 export class SharedModule {}
