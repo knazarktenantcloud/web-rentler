@@ -2,17 +2,13 @@ import { AbstractControl, FormArray, FormControl, FormGroup, ValidationErrors } 
 import { Injectable } from '@angular/core';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 
-export declare interface ServerError {
-	[key: string]: [];
-}
-
 @Injectable({
 	providedIn: 'root',
 })
 export class ErrorHandler {
 	private form: FormGroup;
 	private serverError: any;
-	private errorObject: ServerError;
+	private errorObject: any;
 	private message: string;
 
 	private static hasError(control: AbstractControl): boolean {
@@ -20,18 +16,13 @@ export class ErrorHandler {
 	}
 
 	public getError(field: string): string {
-		// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-		// @ts-ignore
 		return this.errorObject[field];
 	}
 
 	/**
 	 * Takes server error obj and set errors to appropriate fields at form given.
-	 *
-	 * @param serverError       Error object that is received from the server
-	 * @param form              Form to which errors belong to.
 	 */
-	public organizeServerErrors(serverError: ServerError, form: FormGroup) {
+	public organizeServerErrors(serverError: any, form: FormGroup) {
 		if (serverError && typeof serverError === 'object') {
 			this.form = form;
 			this.serverError = serverError;
@@ -42,11 +33,8 @@ export class ErrorHandler {
 
 	/**
 	 * Listen's for invalid status of the form given and find's it's errors.
-	 *
-	 * @param form              Form to be listened
-	 * @param errorObject       Error object which to set errors.
 	 */
-	public handleErrors(form: FormGroup, errorObject: any) {
+	public handleErrors(form: FormGroup, errorObject: any = {}) {
 		this.form = form;
 		this.errorObject = errorObject;
 		form.valueChanges.pipe(debounceTime(500), distinctUntilChanged()).subscribe(() => {
@@ -146,8 +134,6 @@ export class ErrorHandler {
 
 	/**
 	 * Find's error type and set's a message value for this type.
-	 *
-	 * @param errors        Validation Error obj.
 	 */
 	private setErrorMessage(errors: ValidationErrors) {
 		if (errors.serverError) {

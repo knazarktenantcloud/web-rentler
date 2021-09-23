@@ -33,12 +33,7 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 			title: [''],
 		});
 
-		const errorObject = {
-			userId: '',
-			title: '',
-		};
-
-		this.errorHandler.handleErrors(this.todoForm, errorObject);
+		this.errorHandler.handleErrors(this.todoForm);
 	}
 
 	ngOnInit() {
