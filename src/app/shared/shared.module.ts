@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { I18NextModule } from 'angular-i18next';
 import { NativeElementInjectorDirective } from '@app/shared/directives/native-element-injector.directive';
 import { IMaskModule } from 'angular-imask';
+import { CustomPhoneComponent } from '@app/shared/components/nested-controls/custom-phone/custom-phone.component';
 
 @NgModule({
 	imports: [
@@ -21,7 +22,7 @@ import { IMaskModule } from 'angular-imask';
 		I18NextModule,
 		IMaskModule,
 	],
-	declarations: [NativeElementInjectorDirective],
+	declarations: [NativeElementInjectorDirective, CustomPhoneComponent],
 	providers: [],
 	exports: [
 		BrowserModule,
@@ -33,6 +34,7 @@ import { IMaskModule } from 'angular-imask';
 		I18NextModule,
 		NativeElementInjectorDirective,
 		IMaskModule,
+		CustomPhoneComponent,
 	],
 })
 export class SharedModule {}

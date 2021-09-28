@@ -26,7 +26,7 @@
 				</mbsc-input>
 			</div>
 			<div class="form-group">
-				<input formControlName="phone" [imask]="{ mask: mask }" />
+				<custom-phone label="Phone"></custom-phone>
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-primary mr-1" [disabled]="todoForm.pristine || todoForm.invalid">

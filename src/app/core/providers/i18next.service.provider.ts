@@ -15,7 +15,7 @@ const i18nextOptions = {
 	fallbackLng: 'en',
 	debug: true,
 	returnEmptyString: false,
-	ns: ['error'],
+	ns: ['error', 'general'],
 	interpolation: {
 		format: I18NextModule.interpolationFormat(defaultInterpolationFormat),
 	},

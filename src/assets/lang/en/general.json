@@ -1,0 +1,3904 @@
+{
+	"countries": [
+		{
+			"mask": "+247-0000",
+			"cc": "AC",
+			"startsWith": "247",
+			"country": "Ascension"
+		},
+		{
+			"mask": "+376-000-000",
+			"cc": "AD",
+			"startsWith": "376",
+			"country": "Andorra"
+		},
+		{
+			"mask": "+971-50-000-0000",
+			"cc": "AE",
+			"startsWith": "9715",
+			"country": "United Arab Emirates"
+		},
+		{
+			"mask": "+971-0-000-0000",
+			"cc": "AE",
+			"startsWith": "971",
+			"country": "United Arab Emirates"
+		},
+		{
+			"mask": "+93-00-000-0000",
+			"cc": "AF",
+			"startsWith": "93",
+			"country": "Afghanistan"
+		},
+		{
+			"mask": "+1(268)000-0000",
+			"cc": "AG",
+			"startsWith": "1268",
+			"country": "Antigua & Barbuda"
+		},
+		{
+			"mask": "+1(264)000-0000",
+			"cc": "AI",
+			"startsWith": "1264",
+			"country": "Anguilla"
+		},
+		{
+			"mask": "+355(000)000-000",
+			"cc": "AL",
+			"startsWith": "355",
+			"country": "Albania"
+		},
+		{
+			"mask": "+374-00-000-000",
+			"cc": "AM",
+			"startsWith": "374",
+			"country": "Armenia"
+		},
+		{
+			"mask": "+599-000-0000",
+			"cc": "AN",
+			"startsWith": "599",
+			"country": "Caribbean Netherlands"
+		},
+		{
+			"mask": "+599-000-0000",
+			"cc": "AN",
+			"startsWith": "599",
+			"country": "Netherlands Antilles"
+		},
+		{
+			"mask": "+599-9000-0000",
+			"cc": "AN",
+			"startsWith": "5999",
+			"country": "Netherlands Antilles"
+		},
+		{
+			"mask": "+244(000)000-000",
+			"cc": "AO",
+			"startsWith": "244",
+			"country": "Angola"
+		},
+		{
+			"mask": "+672-100-000",
+			"cc": "AQ",
+			"startsWith": "6721",
+			"country": "Australian bases in Antarctica"
+		},
+		{
+			"mask": "+54(000)000-0000",
+			"cc": "AR",
+			"startsWith": "54",
+			"country": "Argentina"
+		},
+		{
+			"mask": "+43(000)000-0000",
+			"cc": "AT",
+			"startsWith": "43",
+			"country": "Austria"
+		},
+		{
+			"mask": "+61-0-0000-0000",
+			"cc": "AU",
+			"startsWith": "61",
+			"country": "Australia"
+		},
+		{
+			"mask": "+297-000-0000",
+			"cc": "AW",
+			"startsWith": "297",
+			"country": "Aruba"
+		},
+		{
+			"mask": "+994-00-000-00-00",
+			"cc": "AZ",
+			"startsWith": "994",
+			"country": "Azerbaijan"
+		},
+		{
+			"mask": "+387-00-00000",
+			"cc": "BA",
+			"startsWith": "387",
+			"country": "Bosnia and Herzegovina"
+		},
+		{
+			"mask": "+387-00-0000",
+			"cc": "BA",
+			"startsWith": "387",
+			"country": "Bosnia and Herzegovina"
+		},
+		{
+			"mask": "+1(246)000-0000",
+			"cc": "BB",
+			"startsWith": "1246",
+			"country": "Barbados"
+		},
+		{
+			"mask": "+880-00-000-000",
+			"cc": "BD",
+			"startsWith": "880",
+			"country": "Bangladesh"
+		},
+		{
+			"mask": "+32(000)000-000",
+			"cc": "BE",
+			"startsWith": "32",
+			"country": "Belgium"
+		},
+		{
+			"mask": "+226-00-00-0000",
+			"cc": "BF",
+			"startsWith": "226",
+			"country": "Burkina Faso"
+		},
+		{
+			"mask": "+359(000)000-000",
+			"cc": "BG",
+			"startsWith": "359",
+			"country": "Bulgaria"
+		},
+		{
+			"mask": "+973-0000-0000",
+			"cc": "BH",
+			"startsWith": "973",
+			"country": "Bahrain"
+		},
+		{
+			"mask": "+257-00-00-0000",
+			"cc": "BI",
+			"startsWith": "257",
+			"country": "Burundi"
+		},
+		{
+			"mask": "+229-00-00-0000",
+			"cc": "BJ",
+			"startsWith": "229",
+			"country": "Benin"
+		},
+		{
+			"mask": "+1(441)000-0000",
+			"cc": "BM",
+			"startsWith": "1441",
+			"country": "Bermuda"
+		},
+		{
+			"mask": "+673-000-0000",
+			"cc": "BN",
+			"startsWith": "673",
+			"country": "Brunei Darussalam"
+		},
+		{
+			"mask": "+591-0-000-0000",
+			"cc": "BO",
+			"startsWith": "591",
+			"country": "Bolivia"
+		},
+		{
+			"mask": "+55(00)0000-0000",
+			"cc": "BR",
+			"startsWith": "55",
+			"country": "Brazil"
+		},
+		{
+			"mask": "+55(00)7000-0000",
+			"cc": "BR",
+			"startsWith": "557",
+			"country": "Brazil"
+		},
+		{
+			"mask": "+55(00)90000-0000",
+			"cc": "BR",
+			"startsWith": "559",
+			"country": "Brazil"
+		},
+		{
+			"mask": "+1(242)000-0000",
+			"cc": "BS",
+			"startsWith": "1242",
+			"country": "Bahamas"
+		},
+		{
+			"mask": "+975-17-000-000",
+			"cc": "BT",
+			"startsWith": "97517",
+			"country": "Bhutan"
+		},
+		{
+			"mask": "+975-0-000-000",
+			"cc": "BT",
+			"startsWith": "975",
+			"country": "Bhutan"
+		},
+		{
+			"mask": "+267-00-000-000",
+			"cc": "BW",
+			"startsWith": "267",
+			"country": "Botswana"
+		},
+		{
+			"mask": "+375(00)000-00-00",
+			"cc": "BY",
+			"startsWith": "375",
+			"country": "Belarus"
+		},
+		{
+			"mask": "+501-000-0000",
+			"cc": "BZ",
+			"startsWith": "501",
+			"country": "Belize"
+		},
+		{
+			"mask": "+243(000)000-000",
+			"cc": "CD",
+			"startsWith": "243",
+			"country": "Dem. Rep. Congo"
+		},
+		{
+			"mask": "+236-00-00-0000",
+			"cc": "CF",
+			"startsWith": "236",
+			"country": "Central African Republic"
+		},
+		{
+			"mask": "+242-00-000-0000",
+			"cc": "CG",
+			"startsWith": "242",
+			"country": "Congo (Brazzaville)"
+		},
+		{
+			"mask": "+41-00-000-0000",
+			"cc": "CH",
+			"startsWith": "41",
+			"country": "Switzerland"
+		},
+		{
+			"mask": "+225-00-000-000",
+			"cc": "CI",
+			"startsWith": "225",
+			"country": "Cote d\u2019Ivoire (Ivory Coast)"
+		},
+		{
+			"mask": "+682-00-000",
+			"cc": "CK",
+			"startsWith": "682",
+			"country": "Cook Islands"
+		},
+		{
+			"mask": "+56-0-0000-0000",
+			"cc": "CL",
+			"startsWith": "56",
+			"country": "Chile"
+		},
+		{
+			"mask": "+237-0000-0000",
+			"cc": "CM",
+			"startsWith": "237",
+			"country": "Cameroon"
+		},
+		{
+			"mask": "+86(000)0000-0000",
+			"cc": "CN",
+			"startsWith": "86",
+			"country": "China (PRC)"
+		},
+		{
+			"mask": "+86(000)0000-000",
+			"cc": "CN",
+			"startsWith": "86",
+			"country": "China (PRC)"
+		},
+		{
+			"mask": "+86-00-00000-00000",
+			"cc": "CN",
+			"startsWith": "86",
+			"country": "China (PRC)"
+		},
+		{
+			"mask": "+57(000)000-0000",
+			"cc": "CO",
+			"startsWith": "57",
+			"country": "Colombia"
+		},
+		{
+			"mask": "+506-0000-0000",
+			"cc": "CR",
+			"startsWith": "506",
+			"country": "Costa Rica"
+		},
+		{
+			"mask": "+53-0-000-0000",
+			"cc": "CU",
+			"startsWith": "53",
+			"country": "Cuba"
+		},
+		{
+			"mask": "+238(000)00-00",
+			"cc": "CV",
+			"startsWith": "238",
+			"country": "Cape Verde"
+		},
+		{
+			"mask": "+599-000-0000",
+			"cc": "CW",
+			"startsWith": "599",
+			"country": "Curacao"
+		},
+		{
+			"mask": "+357-00-000-000",
+			"cc": "CY",
+			"startsWith": "357",
+			"country": "Cyprus"
+		},
+		{
+			"mask": "+420(000)000-000",
+			"cc": "CZ",
+			"startsWith": "420",
+			"country": "Czech Republic"
+		},
+		{
+			"mask": "+49(0000)000-0000",
+			"cc": "DE",
+			"startsWith": "49",
+			"country": "Germany"
+		},
+		{
+			"mask": "+49(000)000-0000",
+			"cc": "DE",
+			"startsWith": "49",
+			"country": "Germany"
+		},
+		{
+			"mask": "+49(000)00-0000",
+			"cc": "DE",
+			"startsWith": "49",
+			"country": "Germany"
+		},
+		{
+			"mask": "+49(000)00-000",
+			"cc": "DE",
+			"startsWith": "49",
+			"country": "Germany"
+		},
+		{
+			"mask": "+49(000)00-00",
+			"cc": "DE",
+			"startsWith": "49",
+			"country": "Germany"
+		},
+		{
+			"mask": "+49-000-000",
+			"cc": "DE",
+			"startsWith": "49",
+			"country": "Germany"
+		},
+		{
+			"mask": "+253-00-00-00-00",
+			"cc": "DJ",
+			"startsWith": "253",
+			"country": "Djibouti"
+		},
+		{
+			"mask": "+45-00-00-00-00",
+			"cc": "DK",
+			"startsWith": "45",
+			"country": "Denmark"
+		},
+		{
+			"mask": "+1(767)000-0000",
+			"cc": "DM",
+			"startsWith": "1767",
+			"country": "Dominica"
+		},
+		{
+			"mask": "+1(809)000-0000",
+			"cc": "DO",
+			"startsWith": "1809",
+			"country": "Dominican Republic"
+		},
+		{
+			"mask": "+1(829)000-0000",
+			"cc": "DO",
+			"startsWith": "1829",
+			"country": "Dominican Republic"
+		},
+		{
+			"mask": "+1(849)000-0000",
+			"cc": "DO",
+			"startsWith": "1849",
+			"country": "Dominican Republic"
+		},
+		{
+			"mask": "+213-00-000-0000",
+			"cc": "DZ",
+			"startsWith": "213",
+			"country": "Algeria"
+		},
+		{
+			"mask": "+593-00-000-0000",
+			"cc": "EC",
+			"startsWith": "593",
+			"country": "Ecuador "
+		},
+		{
+			"mask": "+593-0-000-0000",
+			"cc": "EC",
+			"startsWith": "593",
+			"country": "Ecuador"
+		},
+		{
+			"mask": "+372-0000-0000",
+			"cc": "EE",
+			"startsWith": "372",
+			"country": "Estonia "
+		},
+		{
+			"mask": "+372-000-0000",
+			"cc": "EE",
+			"startsWith": "372",
+			"country": "Estonia"
+		},
+		{
+			"mask": "+20(000)000-0000",
+			"cc": "EG",
+			"startsWith": "20",
+			"country": "Egypt"
+		},
+		{
+			"mask": "+291-0-000-000",
+			"cc": "ER",
+			"startsWith": "291",
+			"country": "Eritrea"
+		},
+		{
+			"mask": "+34(000)000-000",
+			"cc": "ES",
+			"startsWith": "34",
+			"country": "Spain"
+		},
+		{
+			"mask": "+251-00-000-0000",
+			"cc": "ET",
+			"startsWith": "251",
+			"country": "Ethiopia"
+		},
+		{
+			"mask": "+358(000)000-00-00",
+			"cc": "FI",
+			"startsWith": "358",
+			"country": "Finland"
+		},
+		{
+			"mask": "+679-00-00000",
+			"cc": "FJ",
+			"startsWith": "679",
+			"country": "Fiji"
+		},
+		{
+			"mask": "+500-00000",
+			"cc": "FK",
+			"startsWith": "500",
+			"country": "Falkland Islands"
+		},
+		{
+			"mask": "+691-000-0000",
+			"cc": "FM",
+			"startsWith": "691",
+			"country": "F.S. Micronesia"
+		},
+		{
+			"mask": "+298-000-000",
+			"cc": "FO",
+			"startsWith": "298",
+			"country": "Faroe Islands"
+		},
+		{
+			"mask": "+262-00000-0000",
+			"cc": "FR",
+			"startsWith": "262",
+			"country": "Mayotte"
+		},
+		{
+			"mask": "+33(000)000-000",
+			"cc": "FR",
+			"startsWith": "33",
+			"country": "France"
+		},
+		{
+			"mask": "+508-00-0000",
+			"cc": "FR",
+			"startsWith": "508",
+			"country": "St Pierre & Miquelon"
+		},
+		{
+			"mask": "+590(000)000-000",
+			"cc": "FR",
+			"startsWith": "590",
+			"country": "Guadeloupe"
+		},
+		{
+			"mask": "+241-0-00-00-00",
+			"cc": "GA",
+			"startsWith": "241",
+			"country": "Gabon"
+		},
+		{
+			"mask": "+1(473)000-0000",
+			"cc": "GD",
+			"startsWith": "1473",
+			"country": "Grenada"
+		},
+		{
+			"mask": "+995(000)000-000",
+			"cc": "GE",
+			"startsWith": "995",
+			"country": "Rep. of Georgia"
+		},
+		{
+			"mask": "+594-00000-0000",
+			"cc": "GF",
+			"startsWith": "594",
+			"country": "Guiana (French)"
+		},
+		{
+			"mask": "+233(000)000-000",
+			"cc": "GH",
+			"startsWith": "233",
+			"country": "Ghana"
+		},
+		{
+			"mask": "+350-000-00000",
+			"cc": "GI",
+			"startsWith": "350",
+			"country": "Gibraltar"
+		},
+		{
+			"mask": "+299-00-00-00",
+			"cc": "GL",
+			"startsWith": "299",
+			"country": "Greenland"
+		},
+		{
+			"mask": "+220(000)00-00",
+			"cc": "GM",
+			"startsWith": "220",
+			"country": "Gambia"
+		},
+		{
+			"mask": "+224-00-000-000",
+			"cc": "GN",
+			"startsWith": "224",
+			"country": "Guinea"
+		},
+		{
+			"mask": "+224-000-000-000",
+			"cc": "GN",
+			"startsWith": "224",
+			"country": "Guinea"
+		},
+		{
+			"mask": "+240-00-000-0000",
+			"cc": "GQ",
+			"startsWith": "240",
+			"country": "Equatorial Guinea"
+		},
+		{
+			"mask": "+30(000)000-0000",
+			"cc": "GR",
+			"startsWith": "30",
+			"country": "Greece"
+		},
+		{
+			"mask": "+502-0-000-0000",
+			"cc": "GT",
+			"startsWith": "502",
+			"country": "Guatemala"
+		},
+		{
+			"mask": "+1(671)000-0000",
+			"cc": "GU",
+			"startsWith": "1671",
+			"country": "Guam"
+		},
+		{
+			"mask": "+245-0-000000",
+			"cc": "GW",
+			"startsWith": "245",
+			"country": "Guinea-Bissau"
+		},
+		{
+			"mask": "+592-000-0000",
+			"cc": "GY",
+			"startsWith": "592",
+			"country": "Guyana"
+		},
+		{
+			"mask": "+852-0000-0000",
+			"cc": "HK",
+			"startsWith": "852",
+			"country": "Hong Kong"
+		},
+		{
+			"mask": "+504-0000-0000",
+			"cc": "HN",
+			"startsWith": "504",
+			"country": "Honduras"
+		},
+		{
+			"mask": "+385-00-000-000",
+			"cc": "HR",
+			"startsWith": "385",
+			"country": "Croatia"
+		},
+		{
+			"mask": "+509-00-00-0000",
+			"cc": "HT",
+			"startsWith": "509",
+			"country": "Haiti"
+		},
+		{
+			"mask": "+36(000)000-00",
+			"cc": "HU",
+			"startsWith": "36",
+			"country": "Hungary"
+		},
+		{
+			"mask": "+62(800)000-0000",
+			"cc": "ID",
+			"startsWith": "628",
+			"country": "Indonesia "
+		},
+		{
+			"mask": "+62-00-000-00",
+			"cc": "ID",
+			"startsWith": "62",
+			"country": "Indonesia"
+		},
+		{
+			"mask": "+62-00-000-000",
+			"cc": "ID",
+			"startsWith": "62",
+			"country": "Indonesia"
+		},
+		{
+			"mask": "+62-00-000-0000",
+			"cc": "ID",
+			"startsWith": "62",
+			"country": "Indonesia"
+		},
+		{
+			"mask": "+62(800)000-000",
+			"cc": "ID",
+			"startsWith": "628",
+			"country": "Indonesia "
+		},
+		{
+			"mask": "+62(800)000-00-000",
+			"cc": "ID",
+			"startsWith": "628",
+			"country": "Indonesia "
+		},
+		{
+			"mask": "+353(000)000-000",
+			"cc": "IE",
+			"startsWith": "353",
+			"country": "Ireland"
+		},
+		{
+			"mask": "+972-50-000-0000",
+			"cc": "IL",
+			"startsWith": "9725",
+			"country": "Israel "
+		},
+		{
+			"mask": "+972-0-000-0000",
+			"cc": "IL",
+			"startsWith": "972",
+			"country": "Israel"
+		},
+		{
+			"mask": "+91(0000)000-000",
+			"cc": "IN",
+			"startsWith": "91",
+			"country": "India"
+		},
+		{
+			"mask": "+246-000-0000",
+			"cc": "IO",
+			"startsWith": "246",
+			"country": "Diego Garcia"
+		},
+		{
+			"mask": "+964(000)000-0000",
+			"cc": "IQ",
+			"startsWith": "964",
+			"country": "Iraq"
+		},
+		{
+			"mask": "+98(000)000-0000",
+			"cc": "IR",
+			"startsWith": "98",
+			"country": "Iran"
+		},
+		{
+			"mask": "+354-000-0000",
+			"cc": "IS",
+			"startsWith": "354",
+			"country": "Iceland"
+		},
+		{
+			"mask": "+39(000)0000-000",
+			"cc": "IT",
+			"startsWith": "39",
+			"country": "Italy"
+		},
+		{
+			"mask": "+1(876)000-0000",
+			"cc": "JM",
+			"startsWith": "1876",
+			"country": "Jamaica"
+		},
+		{
+			"mask": "+962-0-0000-0000",
+			"cc": "JO",
+			"startsWith": "962",
+			"country": "Jordan"
+		},
+		{
+			"mask": "+81-00-0000-0000",
+			"cc": "JP",
+			"startsWith": "81",
+			"country": "Japan"
+		},
+		{
+			"mask": "+81(000)000-000",
+			"cc": "JP",
+			"startsWith": "81",
+			"country": "Japan"
+		},
+		{
+			"mask": "+254-000-000000",
+			"cc": "KE",
+			"startsWith": "254",
+			"country": "Kenya"
+		},
+		{
+			"mask": "+996(000)000-000",
+			"cc": "KG",
+			"startsWith": "996",
+			"country": "Kyrgyzstan"
+		},
+		{
+			"mask": "+855-00-000-000",
+			"cc": "KH",
+			"startsWith": "855",
+			"country": "Cambodia"
+		},
+		{
+			"mask": "+855-00-000-0000",
+			"cc": "KH",
+			"startsWith": "855",
+			"country": "Cambodia"
+		},
+		{
+			"mask": "+686-00-000",
+			"cc": "KI",
+			"startsWith": "686",
+			"country": "Kiribati"
+		},
+		{
+			"mask": "+269-00-00000",
+			"cc": "KM",
+			"startsWith": "269",
+			"country": "Comoros"
+		},
+		{
+			"mask": "+1(869)000-0000",
+			"cc": "KN",
+			"startsWith": "1869",
+			"country": "Saint Kitts & Nevis"
+		},
+		{
+			"mask": "+850-191-000-0000",
+			"cc": "KP",
+			"startsWith": "850191",
+			"country": "DPR Korea (North) "
+		},
+		{
+			"mask": "+850-00-000-000",
+			"cc": "KP",
+			"startsWith": "850",
+			"country": "DPR Korea (North)"
+		},
+		{
+			"mask": "+850-000-0000-000",
+			"cc": "KP",
+			"startsWith": "850",
+			"country": "DPR Korea (North)"
+		},
+		{
+			"mask": "+850-000-000",
+			"cc": "KP",
+			"startsWith": "850",
+			"country": "DPR Korea (North)"
+		},
+		{
+			"mask": "+850-0000-0000",
+			"cc": "KP",
+			"startsWith": "850",
+			"country": "DPR Korea (North)"
+		},
+		{
+			"mask": "+850-0000-0000000000000",
+			"cc": "KP",
+			"startsWith": "850",
+			"country": "DPR Korea (North)"
+		},
+		{
+			"mask": "+82-00-000-0000",
+			"cc": "KR",
+			"startsWith": "82",
+			"country": "Korea (South)"
+		},
+		{
+			"mask": "+82-000-000-0000",
+			"cc": "KR",
+			"startsWith": "82",
+			"country": "Korea (South)"
+		},
+		{
+			"mask": "+965-0000-0000",
+			"cc": "KW",
+			"startsWith": "965",
+			"country": "Kuwait"
+		},
+		{
+			"mask": "+1(345)000-0000",
+			"cc": "KY",
+			"startsWith": "1345",
+			"country": "Cayman Islands"
+		},
+		{
+			"mask": "+7(600)000-00-00",
+			"cc": "KZ",
+			"startsWith": "76",
+			"country": "Kazakhstan"
+		},
+		{
+			"mask": "+7(700)000-00-00",
+			"cc": "KZ",
+			"startsWith": "77",
+			"country": "Kazakhstan"
+		},
+		{
+			"mask": "+856(2000)000-000",
+			"cc": "LA",
+			"startsWith": "85620",
+			"country": "Laos "
+		},
+		{
+			"mask": "+856-00-000-000",
+			"cc": "LA",
+			"startsWith": "856",
+			"country": "Laos"
+		},
+		{
+			"mask": "+961-00-000-000",
+			"cc": "LB",
+			"startsWith": "961",
+			"country": "Lebanon "
+		},
+		{
+			"mask": "+961-0-000-000",
+			"cc": "LB",
+			"startsWith": "961",
+			"country": "Lebanon"
+		},
+		{
+			"mask": "+1(758)000-0000",
+			"cc": "LC",
+			"startsWith": "1758",
+			"country": "Saint Lucia"
+		},
+		{
+			"mask": "+423(000)000-0000",
+			"cc": "LI",
+			"startsWith": "423",
+			"country": "Liechtenstein"
+		},
+		{
+			"mask": "+94-00-000-0000",
+			"cc": "LK",
+			"startsWith": "94",
+			"country": "Sri Lanka"
+		},
+		{
+			"mask": "+231-00-000-000",
+			"cc": "LR",
+			"startsWith": "231",
+			"country": "Liberia"
+		},
+		{
+			"mask": "+266-0-000-0000",
+			"cc": "LS",
+			"startsWith": "266",
+			"country": "Lesotho"
+		},
+		{
+			"mask": "+370(000)00-000",
+			"cc": "LT",
+			"startsWith": "370",
+			"country": "Lithuania"
+		},
+		{
+			"mask": "+352(000)000-000",
+			"cc": "LU",
+			"startsWith": "352",
+			"country": "Luxembourg"
+		},
+		{
+			"mask": "+371-00-000-000",
+			"cc": "LV",
+			"startsWith": "371",
+			"country": "Latvia"
+		},
+		{
+			"mask": "+218-00-000-000",
+			"cc": "LY",
+			"startsWith": "218",
+			"country": "Libya"
+		},
+		{
+			"mask": "+218-21-000-0000",
+			"cc": "LY",
+			"startsWith": "21821",
+			"country": "Libya"
+		},
+		{
+			"mask": "+212-00-0000-000",
+			"cc": "MA",
+			"startsWith": "212",
+			"country": "Morocco"
+		},
+		{
+			"mask": "+377(000)000-000",
+			"cc": "MC",
+			"startsWith": "377",
+			"country": "Monaco"
+		},
+		{
+			"mask": "+377-00-000-000",
+			"cc": "MC",
+			"startsWith": "377",
+			"country": "Monaco"
+		},
+		{
+			"mask": "+373-0000-0000",
+			"cc": "MD",
+			"startsWith": "373",
+			"country": "Moldova"
+		},
+		{
+			"mask": "+382-00-000-000",
+			"cc": "ME",
+			"startsWith": "382",
+			"country": "Montenegro"
+		},
+		{
+			"mask": "+261-00-00-00000",
+			"cc": "MG",
+			"startsWith": "261",
+			"country": "Madagascar"
+		},
+		{
+			"mask": "+692-000-0000",
+			"cc": "MH",
+			"startsWith": "692",
+			"country": "Marshall Islands"
+		},
+		{
+			"mask": "+389-00-000-000",
+			"cc": "MK",
+			"startsWith": "389",
+			"country": "Republic of Macedonia"
+		},
+		{
+			"mask": "+223-00-00-0000",
+			"cc": "ML",
+			"startsWith": "223",
+			"country": "Mali"
+		},
+		{
+			"mask": "+95-00-000-000",
+			"cc": "MM",
+			"startsWith": "95",
+			"country": "Burma (Myanmar)"
+		},
+		{
+			"mask": "+95-0-000-000",
+			"cc": "MM",
+			"startsWith": "95",
+			"country": "Burma (Myanmar)"
+		},
+		{
+			"mask": "+95-000-000",
+			"cc": "MM",
+			"startsWith": "95",
+			"country": "Burma (Myanmar)"
+		},
+		{
+			"mask": "+976-00-00-0000",
+			"cc": "MN",
+			"startsWith": "976",
+			"country": "Mongolia"
+		},
+		{
+			"mask": "+853-0000-0000",
+			"cc": "MO",
+			"startsWith": "853",
+			"country": "Macau"
+		},
+		{
+			"mask": "+1(670)000-0000",
+			"cc": "MP",
+			"startsWith": "1670",
+			"country": "Northern Mariana Islands"
+		},
+		{
+			"mask": "+596(000)00-00-00",
+			"cc": "MQ",
+			"startsWith": "596",
+			"country": "Martinique"
+		},
+		{
+			"mask": "+222-00-00-0000",
+			"cc": "MR",
+			"startsWith": "222",
+			"country": "Mauritania"
+		},
+		{
+			"mask": "+1(664)000-0000",
+			"cc": "MS",
+			"startsWith": "1664",
+			"country": "Montserrat"
+		},
+		{
+			"mask": "+356-0000-0000",
+			"cc": "MT",
+			"startsWith": "356",
+			"country": "Malta"
+		},
+		{
+			"mask": "+230-000-0000",
+			"cc": "MU",
+			"startsWith": "230",
+			"country": "Mauritius"
+		},
+		{
+			"mask": "+960-000-0000",
+			"cc": "MV",
+			"startsWith": "960",
+			"country": "Maldives"
+		},
+		{
+			"mask": "+265-1-000-000",
+			"cc": "MW",
+			"startsWith": "2651",
+			"country": "Malawi"
+		},
+		{
+			"mask": "+265-0-0000-0000",
+			"cc": "MW",
+			"startsWith": "265",
+			"country": "Malawi"
+		},
+		{
+			"mask": "+52(000)000-0000",
+			"cc": "MX",
+			"startsWith": "52",
+			"country": "Mexico"
+		},
+		{
+			"mask": "+52-00-00-0000",
+			"cc": "MX",
+			"startsWith": "52",
+			"country": "Mexico"
+		},
+		{
+			"mask": "+60-00-000-0000",
+			"cc": "MY",
+			"startsWith": "60",
+			"country": "Malaysia "
+		},
+		{
+			"mask": "+60(000)000-000",
+			"cc": "MY",
+			"startsWith": "60",
+			"country": "Malaysia"
+		},
+		{
+			"mask": "+60(000)000-0000",
+			"cc": "MY",
+			"startsWith": "60",
+			"country": "Malaysia"
+		},
+		{
+			"mask": "+60-00-000-000",
+			"cc": "MY",
+			"startsWith": "60",
+			"country": "Malaysia"
+		},
+		{
+			"mask": "+60-0-000-000",
+			"cc": "MY",
+			"startsWith": "60",
+			"country": "Malaysia"
+		},
+		{
+			"mask": "+258-00-000-000",
+			"cc": "MZ",
+			"startsWith": "258",
+			"country": "Mozambique"
+		},
+		{
+			"mask": "+258-000-000-000",
+			"cc": "MZ",
+			"startsWith": "258",
+			"country": "Mozambique"
+		},
+		{
+			"mask": "+264-00-000-0000",
+			"cc": "NA",
+			"startsWith": "264",
+			"country": "Namibia"
+		},
+		{
+			"mask": "+687-00-0000",
+			"cc": "NC",
+			"startsWith": "687",
+			"country": "New Caledonia"
+		},
+		{
+			"mask": "+227-00-00-0000",
+			"cc": "NE",
+			"startsWith": "227",
+			"country": "Niger"
+		},
+		{
+			"mask": "+672-300-000",
+			"cc": "NF",
+			"startsWith": "6723",
+			"country": "Norfolk Island"
+		},
+		{
+			"mask": "+234(000)000-0000",
+			"cc": "NG",
+			"startsWith": "234",
+			"country": "Nigeria"
+		},
+		{
+			"mask": "+234-00-000-000",
+			"cc": "NG",
+			"startsWith": "234",
+			"country": "Nigeria"
+		},
+		{
+			"mask": "+234-00-000-00",
+			"cc": "NG",
+			"startsWith": "234",
+			"country": "Nigeria"
+		},
+		{
+			"mask": "+234(000)000-0000",
+			"cc": "NG",
+			"startsWith": "234",
+			"country": "Nigeria "
+		},
+		{
+			"mask": "+505-0000-0000",
+			"cc": "NI",
+			"startsWith": "505",
+			"country": "Nicaragua"
+		},
+		{
+			"mask": "+31-00-000-0000",
+			"cc": "NL",
+			"startsWith": "31",
+			"country": "Netherlands"
+		},
+		{
+			"mask": "+47(000)00-000",
+			"cc": "NO",
+			"startsWith": "47",
+			"country": "Norway"
+		},
+		{
+			"mask": "+977-00-000-000",
+			"cc": "NP",
+			"startsWith": "977",
+			"country": "Nepal"
+		},
+		{
+			"mask": "+674-000-0000",
+			"cc": "NR",
+			"startsWith": "674",
+			"country": "Nauru"
+		},
+		{
+			"mask": "+683-0000",
+			"cc": "NU",
+			"startsWith": "683",
+			"country": "Niue"
+		},
+		{
+			"mask": "+64(000)000-000",
+			"cc": "NZ",
+			"startsWith": "64",
+			"country": "New Zealand"
+		},
+		{
+			"mask": "+64-00-000-000",
+			"cc": "NZ",
+			"startsWith": "64",
+			"country": "New Zealand"
+		},
+		{
+			"mask": "+64(000)000-0000",
+			"cc": "NZ",
+			"startsWith": "64",
+			"country": "New Zealand"
+		},
+		{
+			"mask": "+968-00-000-000",
+			"cc": "OM",
+			"startsWith": "968",
+			"country": "Oman"
+		},
+		{
+			"mask": "+507-000-0000",
+			"cc": "PA",
+			"startsWith": "507",
+			"country": "Panama"
+		},
+		{
+			"mask": "+507-0000-0000",
+			"cc": "PA",
+			"startsWith": "507",
+			"country": "Panama"
+		},
+		{
+			"mask": "+51(000)000-000",
+			"cc": "PE",
+			"startsWith": "51",
+			"country": "Peru"
+		},
+		{
+			"mask": "+689-00-00-00",
+			"cc": "PF",
+			"startsWith": "689",
+			"country": "French Polynesia"
+		},
+		{
+			"mask": "+675(000)00-000",
+			"cc": "PG",
+			"startsWith": "675",
+			"country": "Papua New Guinea"
+		},
+		{
+			"mask": "+63(000)000-0000",
+			"cc": "PH",
+			"startsWith": "63",
+			"country": "Philippines"
+		},
+		{
+			"mask": "+92(000)000-0000",
+			"cc": "PK",
+			"startsWith": "92",
+			"country": "Pakistan"
+		},
+		{
+			"mask": "+48(000)000-000",
+			"cc": "PL",
+			"startsWith": "48",
+			"country": "Poland"
+		},
+		{
+			"mask": "+970-00-000-0000",
+			"cc": "PS",
+			"startsWith": "970",
+			"country": "Palestine"
+		},
+		{
+			"mask": "+351-00-000-0000",
+			"cc": "PT",
+			"startsWith": "351",
+			"country": "Portugal"
+		},
+		{
+			"mask": "+680-000-0000",
+			"cc": "PW",
+			"startsWith": "680",
+			"country": "Palau"
+		},
+		{
+			"mask": "+595(000)000-000",
+			"cc": "PY",
+			"startsWith": "595",
+			"country": "Paraguay"
+		},
+		{
+			"mask": "+974-0000-0000",
+			"cc": "QA",
+			"startsWith": "974",
+			"country": "Qatar"
+		},
+		{
+			"mask": "+262-00000-0000",
+			"cc": "RE",
+			"startsWith": "262",
+			"country": "Reunion"
+		},
+		{
+			"mask": "+40-00-000-0000",
+			"cc": "RO",
+			"startsWith": "40",
+			"country": "Romania"
+		},
+		{
+			"mask": "+381-00-000-0000",
+			"cc": "RS",
+			"startsWith": "381",
+			"country": "Serbia"
+		},
+		{
+			"mask": "+7(000)000-00-00",
+			"cc": "RU",
+			"startsWith": "7",
+			"country": "Russia"
+		},
+		{
+			"mask": "+250(000)000-000",
+			"cc": "RW",
+			"startsWith": "250",
+			"country": "Rwanda"
+		},
+		{
+			"mask": "+966-5-0000-0000",
+			"cc": "SA",
+			"startsWith": "9665",
+			"country": "Saudi Arabia "
+		},
+		{
+			"mask": "+966-0-000-0000",
+			"cc": "SA",
+			"startsWith": "966",
+			"country": "Saudi Arabia"
+		},
+		{
+			"mask": "+677-000-0000",
+			"cc": "SB",
+			"startsWith": "677",
+			"country": "Solomon Islands "
+		},
+		{
+			"mask": "+677-00000",
+			"cc": "SB",
+			"startsWith": "677",
+			"country": "Solomon Islands"
+		},
+		{
+			"mask": "+248-0-000-000",
+			"cc": "SC",
+			"startsWith": "248",
+			"country": "Seychelles"
+		},
+		{
+			"mask": "+249-00-000-0000",
+			"cc": "SD",
+			"startsWith": "249",
+			"country": "Sudan"
+		},
+		{
+			"mask": "+46-00-000-0000",
+			"cc": "SE",
+			"startsWith": "46",
+			"country": "Sweden"
+		},
+		{
+			"mask": "+65-0000-0000",
+			"cc": "SG",
+			"startsWith": "65",
+			"country": "Singapore"
+		},
+		{
+			"mask": "+290-0000",
+			"cc": "SH",
+			"startsWith": "290",
+			"country": "Saint Helena"
+		},
+		{
+			"mask": "+290-0000",
+			"cc": "SH",
+			"startsWith": "290",
+			"country": "Tristan da Cunha"
+		},
+		{
+			"mask": "+386-00-000-000",
+			"cc": "SI",
+			"startsWith": "386",
+			"country": "Slovenia"
+		},
+		{
+			"mask": "+421(000)000-000",
+			"cc": "SK",
+			"startsWith": "421",
+			"country": "Slovakia"
+		},
+		{
+			"mask": "+232-00-000000",
+			"cc": "SL",
+			"startsWith": "232",
+			"country": "Sierra Leone"
+		},
+		{
+			"mask": "+378-0000-000000",
+			"cc": "SM",
+			"startsWith": "378",
+			"country": "San Marino"
+		},
+		{
+			"mask": "+221-00-000-0000",
+			"cc": "SN",
+			"startsWith": "221",
+			"country": "Senegal"
+		},
+		{
+			"mask": "+252-000-000-000",
+			"cc": "SO",
+			"startsWith": "252",
+			"country": "Somalia"
+		},
+		{
+			"mask": "+252-00-000-000",
+			"cc": "SO",
+			"startsWith": "252",
+			"country": "Somalia"
+		},
+		{
+			"mask": "+252-0-000-000",
+			"cc": "SO",
+			"startsWith": "252",
+			"country": "Somalia"
+		},
+		{
+			"mask": "+597-000-0000",
+			"cc": "SR",
+			"startsWith": "597",
+			"country": "Suriname "
+		},
+		{
+			"mask": "+597-000-000",
+			"cc": "SR",
+			"startsWith": "597",
+			"country": "Suriname"
+		},
+		{
+			"mask": "+211-00-000-0000",
+			"cc": "SS",
+			"startsWith": "211",
+			"country": "South Sudan"
+		},
+		{
+			"mask": "+239-00-00000",
+			"cc": "ST",
+			"startsWith": "239",
+			"country": "Sao Tome and Principe"
+		},
+		{
+			"mask": "+503-00-00-0000",
+			"cc": "SV",
+			"startsWith": "503",
+			"country": "El Salvador"
+		},
+		{
+			"mask": "+1(721)000-0000",
+			"cc": "SX",
+			"startsWith": "1721",
+			"country": "Sint Maarten"
+		},
+		{
+			"mask": "+963-00-0000-000",
+			"cc": "SY",
+			"startsWith": "963",
+			"country": "Syrian Arab Republic"
+		},
+		{
+			"mask": "+268-00-00-0000",
+			"cc": "SZ",
+			"startsWith": "268",
+			"country": "Swaziland"
+		},
+		{
+			"mask": "+1(649)000-0000",
+			"cc": "TC",
+			"startsWith": "1649",
+			"country": "Turks & Caicos"
+		},
+		{
+			"mask": "+235-00-00-00-00",
+			"cc": "TD",
+			"startsWith": "235",
+			"country": "Chad"
+		},
+		{
+			"mask": "+228-00-000-000",
+			"cc": "TG",
+			"startsWith": "228",
+			"country": "Togo"
+		},
+		{
+			"mask": "+66-00-000-0000",
+			"cc": "TH",
+			"startsWith": "66",
+			"country": "Thailand "
+		},
+		{
+			"mask": "+66-00-000-000",
+			"cc": "TH",
+			"startsWith": "66",
+			"country": "Thailand"
+		},
+		{
+			"mask": "+992-00-000-0000",
+			"cc": "TJ",
+			"startsWith": "992",
+			"country": "Tajikistan"
+		},
+		{
+			"mask": "+690-0000",
+			"cc": "TK",
+			"startsWith": "690",
+			"country": "Tokelau"
+		},
+		{
+			"mask": "+670-000-0000",
+			"cc": "TL",
+			"startsWith": "670",
+			"country": "East Timor"
+		},
+		{
+			"mask": "+670-770-00000",
+			"cc": "TL",
+			"startsWith": "67077",
+			"country": "East Timor"
+		},
+		{
+			"mask": "+670-700-000000",
+			"cc": "TL",
+			"startsWith": "6707",
+			"country": "East Timor"
+		},
+		{
+			"mask": "+670-780-00000",
+			"cc": "TL",
+			"startsWith": "67078",
+			"country": "East Timor"
+		},
+		{
+			"mask": "+993-0-000-0000",
+			"cc": "TM",
+			"startsWith": "993",
+			"country": "Turkmenistan"
+		},
+		{
+			"mask": "+216-00-000-000",
+			"cc": "TN",
+			"startsWith": "216",
+			"country": "Tunisia"
+		},
+		{
+			"mask": "+676-00000",
+			"cc": "TO",
+			"startsWith": "676",
+			"country": "Tonga"
+		},
+		{
+			"mask": "+90(000)000-0000",
+			"cc": "TR",
+			"startsWith": "90",
+			"country": "Turkey"
+		},
+		{
+			"mask": "+1(868)000-0000",
+			"cc": "TT",
+			"startsWith": "1868",
+			"country": "Trinidad & Tobago"
+		},
+		{
+			"mask": "+688-900000",
+			"cc": "TV",
+			"startsWith": "68890",
+			"country": "Tuvalu "
+		},
+		{
+			"mask": "+688-20000",
+			"cc": "TV",
+			"startsWith": "6882",
+			"country": "Tuvalu"
+		},
+		{
+			"mask": "+886-0-0000-0000",
+			"cc": "TW",
+			"startsWith": "886",
+			"country": "Taiwan"
+		},
+		{
+			"mask": "+886-0000-0000",
+			"cc": "TW",
+			"startsWith": "886",
+			"country": "Taiwan"
+		},
+		{
+			"mask": "+255-00-000-0000",
+			"cc": "TZ",
+			"startsWith": "255",
+			"country": "Tanzania"
+		},
+		{
+			"mask": "+380(00)000-00-00",
+			"cc": "UA",
+			"startsWith": "380",
+			"country": "Ukraine"
+		},
+		{
+			"mask": "+256(000)000-000",
+			"cc": "UG",
+			"startsWith": "256",
+			"country": "Uganda"
+		},
+		{
+			"mask": "+44-00-0000-0000",
+			"cc": "UK",
+			"startsWith": "44",
+			"country": "United Kingdom"
+		},
+		{
+			"mask": "+598-0-000-00-00",
+			"cc": "UY",
+			"startsWith": "598",
+			"country": "Uruguay"
+		},
+		{
+			"mask": "+998-00-000-0000",
+			"cc": "UZ",
+			"startsWith": "998",
+			"country": "Uzbekistan"
+		},
+		{
+			"mask": "+39-6-698-00000",
+			"cc": "VA",
+			"startsWith": "396698",
+			"country": "Vatican City"
+		},
+		{
+			"mask": "+1(784)000-0000",
+			"cc": "VC",
+			"startsWith": "1784",
+			"country": "Saint Vincent & the Grenadines"
+		},
+		{
+			"mask": "+58(000)000-0000",
+			"cc": "VE",
+			"startsWith": "58",
+			"country": "Venezuela"
+		},
+		{
+			"mask": "+1(284)000-0000",
+			"cc": "VG",
+			"startsWith": "1284",
+			"country": "British Virgin Islands"
+		},
+		{
+			"mask": "+84-00-0000-000",
+			"cc": "VN",
+			"startsWith": "84",
+			"country": "Vietnam"
+		},
+		{
+			"mask": "+84(000)0000-000",
+			"cc": "VN",
+			"startsWith": "84",
+			"country": "Vietnam"
+		},
+		{
+			"mask": "+678-00-00000",
+			"cc": "VU",
+			"startsWith": "678",
+			"country": "Vanuatu "
+		},
+		{
+			"mask": "+678-00000",
+			"cc": "VU",
+			"startsWith": "678",
+			"country": "Vanuatu"
+		},
+		{
+			"mask": "+681-00-0000",
+			"cc": "WF",
+			"startsWith": "681",
+			"country": "Wallis and Futuna"
+		},
+		{
+			"mask": "+685-00-0000",
+			"cc": "WS",
+			"startsWith": "685",
+			"country": "Samoa"
+		},
+		{
+			"mask": "+967-000-000-000",
+			"cc": "YE",
+			"startsWith": "967",
+			"country": "Yemen "
+		},
+		{
+			"mask": "+967-0-000-000",
+			"cc": "YE",
+			"startsWith": "967",
+			"country": "Yemen"
+		},
+		{
+			"mask": "+967-00-000-000",
+			"cc": "YE",
+			"startsWith": "967",
+			"country": "Yemen"
+		},
+		{
+			"mask": "+27-00-000-0000",
+			"cc": "ZA",
+			"startsWith": "27",
+			"country": "South Africa"
+		},
+		{
+			"mask": "+260-00-000-0000",
+			"cc": "ZM",
+			"startsWith": "260",
+			"country": "Zambia"
+		},
+		{
+			"mask": "+263-0-000000",
+			"cc": "ZW",
+			"startsWith": "263",
+			"country": "Zimbabwe"
+		},
+		{
+			"mask": "+263-0000-000-000",
+			"cc": "ZW",
+			"startsWith": "263",
+			"country": "Zimbabwe"
+		},
+		{
+			"mask": "+1(201)000-0000",
+			"cc": "US",
+			"startsWith": "1201",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(202)000-0000",
+			"cc": "US",
+			"startsWith": "1202",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(203)000-0000",
+			"cc": "US",
+			"startsWith": "1203",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(204)000-0000",
+			"cc": "CA",
+			"startsWith": "1204",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(205)000-0000",
+			"cc": "US",
+			"startsWith": "1205",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(206)000-0000",
+			"cc": "US",
+			"startsWith": "1206",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(207)000-0000",
+			"cc": "US",
+			"startsWith": "1207",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(208)000-0000",
+			"cc": "US",
+			"startsWith": "1208",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(209)000-0000",
+			"cc": "US",
+			"startsWith": "1209",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(210)000-0000",
+			"cc": "US",
+			"startsWith": "1210",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(212)000-0000",
+			"cc": "US",
+			"startsWith": "1212",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(213)000-0000",
+			"cc": "US",
+			"startsWith": "1213",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(214)000-0000",
+			"cc": "US",
+			"startsWith": "1214",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(215)000-0000",
+			"cc": "US",
+			"startsWith": "1215",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(216)000-0000",
+			"cc": "US",
+			"startsWith": "1216",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(217)000-0000",
+			"cc": "US",
+			"startsWith": "1217",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(218)000-0000",
+			"cc": "US",
+			"startsWith": "1218",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(219)000-0000",
+			"cc": "US",
+			"startsWith": "1219",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(224)000-0000",
+			"cc": "US",
+			"startsWith": "1224",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(225)000-0000",
+			"cc": "US",
+			"startsWith": "1225",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(226)000-0000",
+			"cc": "CA",
+			"startsWith": "1226",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(228)000-0000",
+			"cc": "US",
+			"startsWith": "1228",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(229)000-0000",
+			"cc": "US",
+			"startsWith": "1229",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(231)000-0000",
+			"cc": "US",
+			"startsWith": "1231",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(234)000-0000",
+			"cc": "US",
+			"startsWith": "1234",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(236)000-0000",
+			"cc": "CA",
+			"startsWith": "1236",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(239)000-0000",
+			"cc": "US",
+			"startsWith": "1239",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(240)000-0000",
+			"cc": "US",
+			"startsWith": "1240",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(248)000-0000",
+			"cc": "US",
+			"startsWith": "1248",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(249)000-0000",
+			"cc": "CA",
+			"startsWith": "1249",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(250)000-0000",
+			"cc": "CA",
+			"startsWith": "1250",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(251)000-0000",
+			"cc": "US",
+			"startsWith": "1251",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(252)000-0000",
+			"cc": "US",
+			"startsWith": "1252",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(253)000-0000",
+			"cc": "US",
+			"startsWith": "1253",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(254)000-0000",
+			"cc": "US",
+			"startsWith": "1254",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(256)000-0000",
+			"cc": "US",
+			"startsWith": "1256",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(260)000-0000",
+			"cc": "US",
+			"startsWith": "1260",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(262)000-0000",
+			"cc": "US",
+			"startsWith": "1262",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(267)000-0000",
+			"cc": "US",
+			"startsWith": "1267",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(269)000-0000",
+			"cc": "US",
+			"startsWith": "1269",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(270)000-0000",
+			"cc": "US",
+			"startsWith": "1270",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(272)000-0000",
+			"cc": "US",
+			"startsWith": "1272",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(276)000-0000",
+			"cc": "US",
+			"startsWith": "1276",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(281)000-0000",
+			"cc": "US",
+			"startsWith": "1281",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(289)000-0000",
+			"cc": "CA",
+			"startsWith": "1289",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(301)000-0000",
+			"cc": "US",
+			"startsWith": "1301",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(302)000-0000",
+			"cc": "US",
+			"startsWith": "1302",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(303)000-0000",
+			"cc": "US",
+			"startsWith": "1303",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(304)000-0000",
+			"cc": "US",
+			"startsWith": "1304",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(305)000-0000",
+			"cc": "US",
+			"startsWith": "1305",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(306)000-0000",
+			"cc": "CA",
+			"startsWith": "1306",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(307)000-0000",
+			"cc": "US",
+			"startsWith": "1307",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(308)000-0000",
+			"cc": "US",
+			"startsWith": "1308",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(309)000-0000",
+			"cc": "US",
+			"startsWith": "1309",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(310)000-0000",
+			"cc": "US",
+			"startsWith": "1310",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(312)000-0000",
+			"cc": "US",
+			"startsWith": "1312",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(313)000-0000",
+			"cc": "US",
+			"startsWith": "1313",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(314)000-0000",
+			"cc": "US",
+			"startsWith": "1314",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(315)000-0000",
+			"cc": "US",
+			"startsWith": "1315",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(316)000-0000",
+			"cc": "US",
+			"startsWith": "1316",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(317)000-0000",
+			"cc": "US",
+			"startsWith": "1317",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(318)000-0000",
+			"cc": "US",
+			"startsWith": "1318",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(319)000-0000",
+			"cc": "US",
+			"startsWith": "1319",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(320)000-0000",
+			"cc": "US",
+			"startsWith": "1320",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(321)000-0000",
+			"cc": "US",
+			"startsWith": "1321",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(323)000-0000",
+			"cc": "US",
+			"startsWith": "1323",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(325)000-0000",
+			"cc": "US",
+			"startsWith": "1325",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(330)000-0000",
+			"cc": "US",
+			"startsWith": "1330",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(331)000-0000",
+			"cc": "US",
+			"startsWith": "1331",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(334)000-0000",
+			"cc": "US",
+			"startsWith": "1334",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(336)000-0000",
+			"cc": "US",
+			"startsWith": "1336",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(337)000-0000",
+			"cc": "US",
+			"startsWith": "1337",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(339)000-0000",
+			"cc": "US",
+			"startsWith": "1339",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(340)000-0000",
+			"cc": "US",
+			"startsWith": "1340",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(343)000-0000",
+			"cc": "CA",
+			"startsWith": "1343",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(346)000-0000",
+			"cc": "US",
+			"startsWith": "1346",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(347)000-0000",
+			"cc": "US",
+			"startsWith": "1347",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(351)000-0000",
+			"cc": "US",
+			"startsWith": "1351",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(352)000-0000",
+			"cc": "US",
+			"startsWith": "1352",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(360)000-0000",
+			"cc": "US",
+			"startsWith": "1360",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(361)000-0000",
+			"cc": "US",
+			"startsWith": "1361",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(365)000-0000",
+			"cc": "CA",
+			"startsWith": "1365",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(385)000-0000",
+			"cc": "US",
+			"startsWith": "1385",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(386)000-0000",
+			"cc": "US",
+			"startsWith": "1386",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(401)000-0000",
+			"cc": "US",
+			"startsWith": "1401",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(402)000-0000",
+			"cc": "US",
+			"startsWith": "1402",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(403)000-0000",
+			"cc": "CA",
+			"startsWith": "1403",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(404)000-0000",
+			"cc": "US",
+			"startsWith": "1404",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(405)000-0000",
+			"cc": "US",
+			"startsWith": "1405",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(406)000-0000",
+			"cc": "US",
+			"startsWith": "1406",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(407)000-0000",
+			"cc": "US",
+			"startsWith": "1407",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(408)000-0000",
+			"cc": "US",
+			"startsWith": "1408",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(409)000-0000",
+			"cc": "US",
+			"startsWith": "1409",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(410)000-0000",
+			"cc": "US",
+			"startsWith": "1410",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(412)000-0000",
+			"cc": "US",
+			"startsWith": "1412",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(413)000-0000",
+			"cc": "US",
+			"startsWith": "1413",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(414)000-0000",
+			"cc": "US",
+			"startsWith": "1414",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(415)000-0000",
+			"cc": "US",
+			"startsWith": "1415",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(416)000-0000",
+			"cc": "CA",
+			"startsWith": "1416",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(417)000-0000",
+			"cc": "US",
+			"startsWith": "1417",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(418)000-0000",
+			"cc": "CA",
+			"startsWith": "1418",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(419)000-0000",
+			"cc": "US",
+			"startsWith": "1419",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(423)000-0000",
+			"cc": "US",
+			"startsWith": "1423",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(424)000-0000",
+			"cc": "US",
+			"startsWith": "1424",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(425)000-0000",
+			"cc": "US",
+			"startsWith": "1425",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(430)000-0000",
+			"cc": "US",
+			"startsWith": "1430",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(431)000-0000",
+			"cc": "CA",
+			"startsWith": "1431",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(432)000-0000",
+			"cc": "US",
+			"startsWith": "1432",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(434)000-0000",
+			"cc": "US",
+			"startsWith": "1434",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(435)000-0000",
+			"cc": "US",
+			"startsWith": "1435",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(437)000-0000",
+			"cc": "CA",
+			"startsWith": "1437",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(438)000-0000",
+			"cc": "CA",
+			"startsWith": "1438",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(440)000-0000",
+			"cc": "US",
+			"startsWith": "1440",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(442)000-0000",
+			"cc": "US",
+			"startsWith": "1442",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(443)000-0000",
+			"cc": "US",
+			"startsWith": "1443",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(450)000-0000",
+			"cc": "CA",
+			"startsWith": "1450",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(458)000-0000",
+			"cc": "US",
+			"startsWith": "1458",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(469)000-0000",
+			"cc": "US",
+			"startsWith": "1469",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(470)000-0000",
+			"cc": "US",
+			"startsWith": "1470",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(475)000-0000",
+			"cc": "US",
+			"startsWith": "1475",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(478)000-0000",
+			"cc": "US",
+			"startsWith": "1478",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(479)000-0000",
+			"cc": "US",
+			"startsWith": "1479",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(480)000-0000",
+			"cc": "US",
+			"startsWith": "1480",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(484)000-0000",
+			"cc": "US",
+			"startsWith": "1484",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(501)000-0000",
+			"cc": "US",
+			"startsWith": "1501",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(502)000-0000",
+			"cc": "US",
+			"startsWith": "1502",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(503)000-0000",
+			"cc": "US",
+			"startsWith": "1503",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(504)000-0000",
+			"cc": "US",
+			"startsWith": "1504",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(505)000-0000",
+			"cc": "US",
+			"startsWith": "1505",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(506)000-0000",
+			"cc": "CA",
+			"startsWith": "1506",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(507)000-0000",
+			"cc": "US",
+			"startsWith": "1507",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(508)000-0000",
+			"cc": "US",
+			"startsWith": "1508",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(509)000-0000",
+			"cc": "US",
+			"startsWith": "1509",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(510)000-0000",
+			"cc": "US",
+			"startsWith": "1510",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(512)000-0000",
+			"cc": "US",
+			"startsWith": "1512",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(513)000-0000",
+			"cc": "US",
+			"startsWith": "1513",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(514)000-0000",
+			"cc": "CA",
+			"startsWith": "1514",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(515)000-0000",
+			"cc": "US",
+			"startsWith": "1515",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(516)000-0000",
+			"cc": "US",
+			"startsWith": "1516",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(517)000-0000",
+			"cc": "US",
+			"startsWith": "1517",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(518)000-0000",
+			"cc": "US",
+			"startsWith": "1518",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(519)000-0000",
+			"cc": "CA",
+			"startsWith": "1519",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(520)000-0000",
+			"cc": "US",
+			"startsWith": "1520",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(530)000-0000",
+			"cc": "US",
+			"startsWith": "1530",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(531)000-0000",
+			"cc": "US",
+			"startsWith": "1531",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(534)000-0000",
+			"cc": "US",
+			"startsWith": "1534",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(539)000-0000",
+			"cc": "US",
+			"startsWith": "1539",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(540)000-0000",
+			"cc": "US",
+			"startsWith": "1540",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(541)000-0000",
+			"cc": "US",
+			"startsWith": "1541",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(551)000-0000",
+			"cc": "US",
+			"startsWith": "1551",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(559)000-0000",
+			"cc": "US",
+			"startsWith": "1559",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(561)000-0000",
+			"cc": "US",
+			"startsWith": "1561",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(562)000-0000",
+			"cc": "US",
+			"startsWith": "1562",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(563)000-0000",
+			"cc": "US",
+			"startsWith": "1563",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(567)000-0000",
+			"cc": "US",
+			"startsWith": "1567",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(570)000-0000",
+			"cc": "US",
+			"startsWith": "1570",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(571)000-0000",
+			"cc": "US",
+			"startsWith": "1571",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(573)000-0000",
+			"cc": "US",
+			"startsWith": "1573",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(574)000-0000",
+			"cc": "US",
+			"startsWith": "1574",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(575)000-0000",
+			"cc": "US",
+			"startsWith": "1575",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(579)000-0000",
+			"cc": "CA",
+			"startsWith": "1579",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(580)000-0000",
+			"cc": "US",
+			"startsWith": "1580",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(581)000-0000",
+			"cc": "CA",
+			"startsWith": "1581",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(585)000-0000",
+			"cc": "US",
+			"startsWith": "1585",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(586)000-0000",
+			"cc": "US",
+			"startsWith": "1586",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(587)000-0000",
+			"cc": "CA",
+			"startsWith": "1587",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(601)000-0000",
+			"cc": "US",
+			"startsWith": "1601",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(602)000-0000",
+			"cc": "US",
+			"startsWith": "1602",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(603)000-0000",
+			"cc": "US",
+			"startsWith": "1603",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(604)000-0000",
+			"cc": "CA",
+			"startsWith": "1604",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(605)000-0000",
+			"cc": "US",
+			"startsWith": "1605",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(606)000-0000",
+			"cc": "US",
+			"startsWith": "1606",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(607)000-0000",
+			"cc": "US",
+			"startsWith": "1607",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(608)000-0000",
+			"cc": "US",
+			"startsWith": "1608",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(609)000-0000",
+			"cc": "US",
+			"startsWith": "1609",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(610)000-0000",
+			"cc": "US",
+			"startsWith": "1610",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(612)000-0000",
+			"cc": "US",
+			"startsWith": "1612",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(613)000-0000",
+			"cc": "CA",
+			"startsWith": "1613",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(614)000-0000",
+			"cc": "US",
+			"startsWith": "1614",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(615)000-0000",
+			"cc": "US",
+			"startsWith": "1615",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(616)000-0000",
+			"cc": "US",
+			"startsWith": "1616",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(617)000-0000",
+			"cc": "US",
+			"startsWith": "1617",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(618)000-0000",
+			"cc": "US",
+			"startsWith": "1618",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(619)000-0000",
+			"cc": "US",
+			"startsWith": "1619",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(620)000-0000",
+			"cc": "US",
+			"startsWith": "1620",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(623)000-0000",
+			"cc": "US",
+			"startsWith": "1623",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(626)000-0000",
+			"cc": "US",
+			"startsWith": "1626",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(630)000-0000",
+			"cc": "US",
+			"startsWith": "1630",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(631)000-0000",
+			"cc": "US",
+			"startsWith": "1631",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(636)000-0000",
+			"cc": "US",
+			"startsWith": "1636",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(639)000-0000",
+			"cc": "CA",
+			"startsWith": "1639",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(641)000-0000",
+			"cc": "US",
+			"startsWith": "1641",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(646)000-0000",
+			"cc": "US",
+			"startsWith": "1646",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(647)000-0000",
+			"cc": "CA",
+			"startsWith": "1647",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(650)000-0000",
+			"cc": "US",
+			"startsWith": "1650",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(651)000-0000",
+			"cc": "US",
+			"startsWith": "1651",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(657)000-0000",
+			"cc": "US",
+			"startsWith": "1657",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(660)000-0000",
+			"cc": "US",
+			"startsWith": "1660",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(661)000-0000",
+			"cc": "US",
+			"startsWith": "1661",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(662)000-0000",
+			"cc": "US",
+			"startsWith": "1662",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(667)000-0000",
+			"cc": "US",
+			"startsWith": "1667",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(669)000-0000",
+			"cc": "US",
+			"startsWith": "1669",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(670)000-0000",
+			"cc": "US",
+			"startsWith": "1670",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(671)000-0000",
+			"cc": "US",
+			"startsWith": "1671",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(678)000-0000",
+			"cc": "US",
+			"startsWith": "1678",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(681)000-0000",
+			"cc": "US",
+			"startsWith": "1681",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(682)000-0000",
+			"cc": "US",
+			"startsWith": "1682",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(684)000-0000",
+			"cc": "AS",
+			"startsWith": "1684",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(701)000-0000",
+			"cc": "US",
+			"startsWith": "1701",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(702)000-0000",
+			"cc": "US",
+			"startsWith": "1702",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(703)000-0000",
+			"cc": "US",
+			"startsWith": "1703",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(704)000-0000",
+			"cc": "US",
+			"startsWith": "1704",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(705)000-0000",
+			"cc": "CA",
+			"startsWith": "1705",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(706)000-0000",
+			"cc": "US",
+			"startsWith": "1706",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(707)000-0000",
+			"cc": "US",
+			"startsWith": "1707",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(708)000-0000",
+			"cc": "US",
+			"startsWith": "1708",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(709)000-0000",
+			"cc": "CA",
+			"startsWith": "1709",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(712)000-0000",
+			"cc": "US",
+			"startsWith": "1712",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(713)000-0000",
+			"cc": "US",
+			"startsWith": "1713",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(714)000-0000",
+			"cc": "US",
+			"startsWith": "1714",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(715)000-0000",
+			"cc": "US",
+			"startsWith": "1715",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(716)000-0000",
+			"cc": "US",
+			"startsWith": "1716",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(717)000-0000",
+			"cc": "US",
+			"startsWith": "1717",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(718)000-0000",
+			"cc": "US",
+			"startsWith": "1718",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(719)000-0000",
+			"cc": "US",
+			"startsWith": "1719",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(720)000-0000",
+			"cc": "US",
+			"startsWith": "1720",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(724)000-0000",
+			"cc": "US",
+			"startsWith": "1724",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(725)000-0000",
+			"cc": "US",
+			"startsWith": "1725",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(727)000-0000",
+			"cc": "US",
+			"startsWith": "1727",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(731)000-0000",
+			"cc": "US",
+			"startsWith": "1731",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(732)000-0000",
+			"cc": "US",
+			"startsWith": "1732",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(734)000-0000",
+			"cc": "US",
+			"startsWith": "1734",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(737)000-0000",
+			"cc": "US",
+			"startsWith": "1737",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(740)000-0000",
+			"cc": "US",
+			"startsWith": "1740",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(747)000-0000",
+			"cc": "US",
+			"startsWith": "1747",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(754)000-0000",
+			"cc": "US",
+			"startsWith": "1754",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(757)000-0000",
+			"cc": "US",
+			"startsWith": "1757",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(760)000-0000",
+			"cc": "US",
+			"startsWith": "1760",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(762)000-0000",
+			"cc": "US",
+			"startsWith": "1762",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(763)000-0000",
+			"cc": "US",
+			"startsWith": "1763",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(765)000-0000",
+			"cc": "US",
+			"startsWith": "1765",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(769)000-0000",
+			"cc": "US",
+			"startsWith": "1769",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(770)000-0000",
+			"cc": "US",
+			"startsWith": "1770",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(772)000-0000",
+			"cc": "US",
+			"startsWith": "1772",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(773)000-0000",
+			"cc": "US",
+			"startsWith": "1773",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(774)000-0000",
+			"cc": "US",
+			"startsWith": "1774",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(775)000-0000",
+			"cc": "US",
+			"startsWith": "1775",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(778)000-0000",
+			"cc": "CA",
+			"startsWith": "1778",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(779)000-0000",
+			"cc": "US",
+			"startsWith": "1779",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(780)000-0000",
+			"cc": "CA",
+			"startsWith": "1780",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(781)000-0000",
+			"cc": "US",
+			"startsWith": "1781",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(785)000-0000",
+			"cc": "US",
+			"startsWith": "1785",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(786)000-0000",
+			"cc": "US",
+			"startsWith": "1786",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(787)000-0000",
+			"cc": "US",
+			"startsWith": "1787",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(801)000-0000",
+			"cc": "US",
+			"startsWith": "1801",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(802)000-0000",
+			"cc": "US",
+			"startsWith": "1802",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(803)000-0000",
+			"cc": "US",
+			"startsWith": "1803",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(804)000-0000",
+			"cc": "US",
+			"startsWith": "1804",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(805)000-0000",
+			"cc": "US",
+			"startsWith": "1805",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(806)000-0000",
+			"cc": "US",
+			"startsWith": "1806",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(807)000-0000",
+			"cc": "CA",
+			"startsWith": "1807",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(808)000-0000",
+			"cc": "US",
+			"startsWith": "1808",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(810)000-0000",
+			"cc": "US",
+			"startsWith": "1810",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(812)000-0000",
+			"cc": "US",
+			"startsWith": "1812",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(813)000-0000",
+			"cc": "US",
+			"startsWith": "1813",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(814)000-0000",
+			"cc": "US",
+			"startsWith": "1814",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(815)000-0000",
+			"cc": "US",
+			"startsWith": "1815",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(816)000-0000",
+			"cc": "US",
+			"startsWith": "1816",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(817)000-0000",
+			"cc": "US",
+			"startsWith": "1817",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(818)000-0000",
+			"cc": "US",
+			"startsWith": "1818",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(819)000-0000",
+			"cc": "CA",
+			"startsWith": "1819",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(828)000-0000",
+			"cc": "US",
+			"startsWith": "1828",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(830)000-0000",
+			"cc": "US",
+			"startsWith": "1830",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(831)000-0000",
+			"cc": "US",
+			"startsWith": "1831",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(832)000-0000",
+			"cc": "US",
+			"startsWith": "1832",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(843)000-0000",
+			"cc": "US",
+			"startsWith": "1843",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(845)000-0000",
+			"cc": "US",
+			"startsWith": "1845",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(847)000-0000",
+			"cc": "US",
+			"startsWith": "1847",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(848)000-0000",
+			"cc": "US",
+			"startsWith": "1848",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(850)000-0000",
+			"cc": "US",
+			"startsWith": "1850",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(856)000-0000",
+			"cc": "US",
+			"startsWith": "1856",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(857)000-0000",
+			"cc": "US",
+			"startsWith": "1857",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(858)000-0000",
+			"cc": "US",
+			"startsWith": "1858",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(859)000-0000",
+			"cc": "US",
+			"startsWith": "1859",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(860)000-0000",
+			"cc": "US",
+			"startsWith": "1860",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(862)000-0000",
+			"cc": "US",
+			"startsWith": "1862",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(863)000-0000",
+			"cc": "US",
+			"startsWith": "1863",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(864)000-0000",
+			"cc": "US",
+			"startsWith": "1864",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(865)000-0000",
+			"cc": "US",
+			"startsWith": "1865",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(867)000-0000",
+			"cc": "CA",
+			"startsWith": "1867",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(870)000-0000",
+			"cc": "US",
+			"startsWith": "1870",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(872)000-0000",
+			"cc": "US",
+			"startsWith": "1872",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(873)000-0000",
+			"cc": "CA",
+			"startsWith": "1873",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(878)000-0000",
+			"cc": "US",
+			"startsWith": "1878",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(800)000-0000",
+			"cc": "US",
+			"startsWith": "1800",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(844)000-0000",
+			"cc": "US",
+			"startsWith": "1844",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(855)000-0000",
+			"cc": "US",
+			"startsWith": "1855",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(866)000-0000",
+			"cc": "US",
+			"startsWith": "1866",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(888)000-0000",
+			"cc": "US",
+			"startsWith": "1888",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(833)000-0000",
+			"cc": "US",
+			"startsWith": "1833",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(901)000-0000",
+			"cc": "US",
+			"startsWith": "1901",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(902)000-0000",
+			"cc": "CA",
+			"startsWith": "1902",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(903)000-0000",
+			"cc": "US",
+			"startsWith": "1903",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(904)000-0000",
+			"cc": "US",
+			"startsWith": "1904",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(905)000-0000",
+			"cc": "CA",
+			"startsWith": "1905",
+			"country": "Canada"
+		},
+		{
+			"mask": "+1(906)000-0000",
+			"cc": "US",
+			"startsWith": "1906",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(907)000-0000",
+			"cc": "US",
+			"startsWith": "1907",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(908)000-0000",
+			"cc": "US",
+			"startsWith": "1908",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(909)000-0000",
+			"cc": "US",
+			"startsWith": "1909",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(910)000-0000",
+			"cc": "US",
+			"startsWith": "1910",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(912)000-0000",
+			"cc": "US",
+			"startsWith": "1912",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(913)000-0000",
+			"cc": "US",
+			"startsWith": "1913",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(914)000-0000",
+			"cc": "US",
+			"startsWith": "1914",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(915)000-0000",
+			"cc": "US",
+			"startsWith": "1915",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(916)000-0000",
+			"cc": "US",
+			"startsWith": "1916",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(917)000-0000",
+			"cc": "US",
+			"startsWith": "1917",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(918)000-0000",
+			"cc": "US",
+			"startsWith": "1918",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(919)000-0000",
+			"cc": "US",
+			"startsWith": "1919",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(920)000-0000",
+			"cc": "US",
+			"startsWith": "1920",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(925)000-0000",
+			"cc": "US",
+			"startsWith": "1925",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(928)000-0000",
+			"cc": "US",
+			"startsWith": "1928",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(929)000-0000",
+			"cc": "US",
+			"startsWith": "1929",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(931)000-0000",
+			"cc": "US",
+			"startsWith": "1931",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(936)000-0000",
+			"cc": "US",
+			"startsWith": "1936",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(937)000-0000",
+			"cc": "US",
+			"startsWith": "1937",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(938)000-0000",
+			"cc": "US",
+			"startsWith": "1938",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(939)000-0000",
+			"cc": "US",
+			"startsWith": "1939",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(940)000-0000",
+			"cc": "US",
+			"startsWith": "1940",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(941)000-0000",
+			"cc": "US",
+			"startsWith": "1941",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(947)000-0000",
+			"cc": "US",
+			"startsWith": "1947",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(949)000-0000",
+			"cc": "US",
+			"startsWith": "1949",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(951)000-0000",
+			"cc": "US",
+			"startsWith": "1951",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(952)000-0000",
+			"cc": "US",
+			"startsWith": "1952",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(954)000-0000",
+			"cc": "US",
+			"startsWith": "1954",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(956)000-0000",
+			"cc": "US",
+			"startsWith": "1956",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(970)000-0000",
+			"cc": "US",
+			"startsWith": "1970",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(971)000-0000",
+			"cc": "US",
+			"startsWith": "1971",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(972)000-0000",
+			"cc": "US",
+			"startsWith": "1972",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(973)000-0000",
+			"cc": "US",
+			"startsWith": "1973",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(978)000-0000",
+			"cc": "US",
+			"startsWith": "1978",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(979)000-0000",
+			"cc": "US",
+			"startsWith": "1979",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(980)000-0000",
+			"cc": "US",
+			"startsWith": "1980",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(984)000-0000",
+			"cc": "US",
+			"startsWith": "1984",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(985)000-0000",
+			"cc": "US",
+			"startsWith": "1985",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(989)000-0000",
+			"cc": "US",
+			"startsWith": "1989",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(800)000-0000",
+			"cc": "US",
+			"startsWith": "1800",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(877)000-0000",
+			"cc": "US",
+			"startsWith": "1877",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(148)000-0000",
+			"cc": "US",
+			"startsWith": "1148",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(628)000-0000",
+			"cc": "US",
+			"startsWith": "1628",
+			"country": "USA"
+		},
+		{
+			"mask": "+1(000)000-0000",
+			"cc": "US",
+			"startsWith": "1",
+			"country": "USA"
+		},
+		{
+			"mask": "0000000000000",
+			"cc": "",
+			"startsWith": "",
+			"country": "unknown"
+		}
+	]
+}
