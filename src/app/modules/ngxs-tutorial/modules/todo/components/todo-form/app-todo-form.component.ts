@@ -47,6 +47,7 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 						id: todo.id,
 						userId: todo.userId,
 						title: todo.title,
+						phone: todo.phone,
 					});
 					this.editTodo = true;
 				} else {
@@ -73,6 +74,7 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 	}
 
 	onSubmit() {
+		console.log(this.todoForm.value);
 		if (this.editTodo) {
 			this.store.dispatch(new UpdateTodo(this.todoForm.value, this.todoForm.value.id)).subscribe(() => {
 				this.clearForm();
