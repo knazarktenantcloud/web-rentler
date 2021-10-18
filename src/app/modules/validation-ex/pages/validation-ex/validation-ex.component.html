@@ -1,0 +1,27 @@
+<h1>VALIDATION</h1>
+<div class="row">
+	<div class="col-md-6">
+		<form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
+			<validation-field>
+				<mbsc-input
+					input-style="outline"
+					label-style="stacked"
+					type="number"
+					name="userId"
+					[formControl]="userId"
+				>
+					User id
+				</mbsc-input>
+			</validation-field>
+
+			<validation-field>
+				<mbsc-input input-style="outline" label-style="stacked" name="email" [formControl]="email">
+					Email
+				</mbsc-input>
+			</validation-field>
+
+			<button type="button" class="btn btn-primary mr-1" (click)="reset()">Reset</button>
+			<button type="submit" class="btn btn-primary mr-1">Submit</button>
+		</form>
+	</div>
+</div>

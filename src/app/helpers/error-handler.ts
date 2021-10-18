@@ -1,6 +1,7 @@
 import { AbstractControl, FormArray, FormControl, FormGroup, ValidationErrors } from '@angular/forms';
 import { Injectable } from '@angular/core';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
+import { ErrorMessageHelper } from '@app/helpers/error-message.helper';
 
 @Injectable({
 	providedIn: 'root',
@@ -138,24 +139,8 @@ export class ErrorHandler {
 	private setErrorMessage(errors: ValidationErrors) {
 		if (errors.serverError) {
 			this.message = errors.serverError;
-		} else if (errors.required) {
-			this.message = 'Required field';
-		} else if (errors.minlength) {
-			this.message = `Max length is ${errors.minlength.actualLength}/${errors.minlength.requiredLength}`;
-		} else if (errors.maxlength) {
-			this.message = `Min length is ${errors.maxlength.actualLength}/${errors.maxlength.requiredLength}`;
-		} else if (errors.email) {
-			this.message = 'Email is not valid';
-		} else if (errors.min) {
-			this.message = `Min value is ${errors.min.min}, actual value is ${errors.min.actual}`;
-		} else if (errors.max) {
-			this.message = `Max value is ${errors.max.max}, actual value is ${errors.max.actual}`;
-		} else if (errors.pattern) {
-			this.message = 'Invalid value';
-		} else if (errors.passwordMismatch) {
-			this.message = 'Passwords do not match';
 		} else {
-			this.message = '';
+			this.message = ErrorMessageHelper.getErrorMessage(errors);
 		}
 	}
 

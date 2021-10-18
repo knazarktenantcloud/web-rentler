@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 
-import { TutorialState } from './modules/tutorial/state/tutorial.state';
-
 import { NgxsModule } from '@ngxs/store';
 import { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';
 import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
@@ -30,12 +28,10 @@ import { AppTodoFormComponent } from '@app/modules/ngxs-tutorial/modules/todo/co
 	],
 	imports: [
 		SharedModule,
-		NgxsModule.forRoot([TodoState], {
-			developmentMode: !environment.production,
-		}),
+		NgxsModule.forRoot([TodoState], { developmentMode: !environment.production }),
 		NgxsReduxDevtoolsPluginModule.forRoot({ disabled: environment.production }),
 		NgxsFormPluginModule.forRoot(),
-		NgxsLoggerPluginModule.forRoot(),
+		// NgxsLoggerPluginModule.forRoot(),
 		NgxsStoragePluginModule.forRoot({ key: ['forms'] }),
 	],
 	providers: [TodoServiceProvider],
