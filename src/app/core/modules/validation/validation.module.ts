@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { ValidationState } from './states/validation.state';
-import { ValidationInterceptor } from './interceptors';
+import { ValidationInterceptor } from './interceptors/validation.interceptor';
 import { ValidationFieldComponent } from './components/validation-field/validation-field.component';
 
 @NgModule({
