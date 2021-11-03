@@ -6,6 +6,7 @@ import { fakeBackendProvider } from './helpers/fake-backend';
 import { NgxsTutorialModule } from './modules/ngxs-tutorial/ngxs-tutorial.module';
 import { CoreModule } from './core/core.module';
 import { mobiscroll } from '@mobiscroll/angular';
+import { JsonapiModule } from '@app/modules/jsonapi/jsonapi.module';
 
 mobiscroll.settings = {
 	theme: 'ios',
@@ -14,7 +15,7 @@ mobiscroll.settings = {
 
 @NgModule({
 	declarations: [AppComponent],
-	imports: [AppRoutingModule, CoreModule, NgxsTutorialModule],
+	imports: [AppRoutingModule, CoreModule, NgxsTutorialModule, JsonapiModule],
 	providers: [
 		// provider used to create fake backend
 		fakeBackendProvider,
