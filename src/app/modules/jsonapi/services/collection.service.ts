@@ -1,6 +1,6 @@
 import { Inject } from '@angular/core';
 import { IModelConstructor, IRawModel, IType } from '@datx/core';
-import { IRequestOptions, modelToJsonApi } from '@datx/jsonapi';
+import { IRequestOptions, modelToJsonApi, saveModel } from '@datx/jsonapi';
 import { IJsonapiModel, Response } from '@datx/jsonapi-angular';
 import { IRecord } from '@datx/jsonapi/dist/interfaces/JsonApi';
 import { Observable } from 'rxjs';

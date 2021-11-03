@@ -7,7 +7,4 @@ export class Artist extends BaseModel {
 
 	@Attribute()
 	public name!: string;
-
-	@Attribute()
-	public type!: string;
 }
