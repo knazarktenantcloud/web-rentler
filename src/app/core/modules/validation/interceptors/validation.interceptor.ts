@@ -16,7 +16,7 @@ export class ValidationInterceptor implements HttpInterceptor {
 			catchError((err) => {
 				const errors: ValidationErrorModel = err.errors;
 
-				this.store.dispatch(new SetValidationErrors(errors));
+				this.store.dispatch(new SetValidationErrors(errors || {}));
 
 				return throwError(err);
 			})
