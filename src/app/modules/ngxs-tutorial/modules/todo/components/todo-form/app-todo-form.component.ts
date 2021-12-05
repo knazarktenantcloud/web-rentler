@@ -56,13 +56,13 @@ export class AppTodoFormComponent implements OnInit, OnDestroy {
 			})
 		);
 
-		this.subscription.add(
-			this.errors$.subscribe((err) => {
-				if (err?.errors) {
-					this.errorHandler.organizeServerErrors(err.errors, this.todoForm);
-				}
-			})
-		);
+		// this.subscription.add(
+		// 	this.errors$.subscribe((err) => {
+		// 		if (err?.errors) {
+		// 			this.errorHandler.organizeServerErrors(err.errors, this.todoForm);
+		// 		}
+		// 	})
+		// );
 	}
 
 	ngOnDestroy() {

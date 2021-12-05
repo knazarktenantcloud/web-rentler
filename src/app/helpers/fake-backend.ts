@@ -79,6 +79,7 @@ export class FakeBackendInterceptor implements HttpInterceptor {
 								error: {
 									errors: {
 										userId: ['Must be integer'],
+										country: ['Required field'],
 									},
 									message: 'Ooops',
 								},

@@ -4,15 +4,17 @@ import { LoaderService, ProgressBarService } from './services';
 import { ErrorInterceptor, LoaderInterceptor, ProgressInterceptor, TimingInterceptor } from './interceptors';
 import { I18NextModule } from 'angular-i18next';
 import { I18N_PROVIDERS } from '@app/core/providers/i18next.service.provider';
+import { ValidationModule } from '@app/core/modules/validation/validation.module';
 
 @NgModule({
 	imports: [
+		ValidationModule,
 		I18NextModule
 			.forRoot
 			// errorHandlingStrategy: StrictErrorHandlingStrategy
 			(),
 	],
-	exports: [],
+	exports: [ValidationModule],
 	providers: [
 		LoaderService,
 		I18N_PROVIDERS,
