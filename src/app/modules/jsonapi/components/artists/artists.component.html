@@ -1,0 +1,15 @@
+<ul>
+	<li *ngFor="let artist of artists$ | async">
+		{{ artist.name }}
+	</li>
+
+	<form [formGroup]="artistForm" (ngSubmit)="onSubmit()">
+		<div class="form-group">
+			<mbsc-input input-style="outline" label-style="stacked" formControlName="name">Name</mbsc-input>
+		</div>
+
+		<button type="submit" class="btn btn-primary mr-1" [disabled]="artistForm.pristine || artistForm.invalid">
+			Submit
+		</button>
+	</form>
+</ul>

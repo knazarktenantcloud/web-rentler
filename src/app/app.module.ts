@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { fakeBackendProvider } from './helpers/fake-backend';
 import { NgxsTutorialModule } from './modules/ngxs-tutorial/ngxs-tutorial.module';
 import { CoreModule } from './core/core.module';
+import { JsonapiModule } from '@app/modules/jsonapi/jsonapi.module';
 import { MbscModule, mobiscroll } from '@mobiscroll/angular';
 
 import { HomeModule } from '@app/modules/home/home.module';
@@ -17,7 +18,15 @@ mobiscroll.settings = {
 
 @NgModule({
 	declarations: [AppComponent],
-	imports: [AppRoutingModule, MbscModule, CoreModule, NgxsTutorialModule, HomeModule, ValidationExModule],
+	imports: [
+		AppRoutingModule,
+		MbscModule,
+		CoreModule,
+		NgxsTutorialModule,
+		HomeModule,
+		JsonapiModule,
+		ValidationExModule,
+	],
 	providers: [
 		// provider used to create fake backend
 		fakeBackendProvider,
